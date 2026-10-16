@@ -77,7 +77,14 @@ Both players run **`Run Co-op Mod.cmd`**.
 - **Host:** press **H**. In the main menu choose *Host Simon's Story*, then
   *Simon's Story: New Game* (or *Load Slot 1/2/3*), and pick a difficulty.
   Give your friend your address (for example your Radmin VPN IP).
-- **Friend:** press **J** and type the host's address.
+- **Friend:** once the game is open, press **`~`** to open the console and
+  type `connect`, then the host's IP address and `:27015`. For example:
+
+  ```
+  connect 192.168.1.1:27015
+  ```
+
+  This is the only way to join.
 
 > [!TIP]
 > **Stuck somewhere?** Press **Y** (chat) and type `stuck`. You are moved next
