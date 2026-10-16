@@ -4,7 +4,6 @@
 
 **Play Simon's single-player story in Cry of Fear with a friend.**
 
-[![Download v0.3](https://img.shields.io/badge/⬇_download-v0.3-b22222?style=for-the-badge)](https://github.com/UNIk0z/Cry-of-fear-Co-op-mod/releases/download/v0.3/Cry.of.Fear.Co-op.v0.3.zip)
 ![Status: early test build](https://img.shields.io/badge/status-early%20test%20build-orange?style=for-the-badge)
 ![Players: 2](https://img.shields.io/badge/players-2-555?style=for-the-badge)
 
