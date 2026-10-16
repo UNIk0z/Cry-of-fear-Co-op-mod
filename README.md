@@ -50,7 +50,14 @@ Cry of Fear normally from Steam still gives you the original game.
 - **Host:** press H. In the main menu pick *Host Simon's Story*, then
   *Simon's Story: New Game* (or *Load Slot 1/2/3*) and a difficulty. Send your
   friend your address, for example your Radmin VPN IP.
-- **Friend:** press J and type in the host's address.
+- **Friend:** once the game is open, press `~` to open the console and type
+  `connect`, then the host's IP address and `:27015`. For example:
+
+  ```
+  connect 192.168.1.1:27015
+  ```
+
+  This is the only way to join.
 
 If one of you gets stuck somewhere, press Y to open chat and type `stuck`. It
 moves you next to the other player.
