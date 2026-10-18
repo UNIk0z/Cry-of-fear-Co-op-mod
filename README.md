@@ -114,7 +114,7 @@ Every bug report needs the **log file**. That's how we can see what happened.
    - what you did;
    - what went wrong, and a screenshot if you have one.
 
-## Known limits (v0.3)
+## Current Known limits
 
 - Tested with automated tests and a few early two-player sessions. Most of the
   campaign has not been played through in co-op yet.
