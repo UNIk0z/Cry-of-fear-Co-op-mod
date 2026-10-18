@@ -74,7 +74,7 @@ The download has just three files:
 
 Both players run **`Run Co-op Mod.cmd`**.
 
-- **Host:** press **H**. In the main menu choose *Host Simon's Story*, then
+- **Host:**In the main menu choose *Host Simon's Story*, then
   *Simon's Story: New Game* (or *Load Slot 1/2/3*), and pick a difficulty.
   Give your friend your address (for example your Radmin VPN IP).
 - **Friend:** once the game is open, press **`~`** to open the console and
