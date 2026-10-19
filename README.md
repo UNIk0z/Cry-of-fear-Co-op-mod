@@ -20,8 +20,8 @@
 > source of this page, not the mod.
 
 1. Click the download link above. Your browser saves
-   **`Cry.of.Fear.Co-op.v0.4.zip`**.
-   (If it doesn't start, open the [v0.4 release page](https://github.com/UNIk0z/Cry-of-fear-Co-op-mod/releases/tag/v0.4.1), scroll down
+   **`Cry.of.Fear.Co-op.v0.4.1.zip`**.
+   (If it doesn't start, open the [v0.4.1 release page](https://github.com/UNIk0z/Cry-of-fear-Co-op-mod/releases/tag/v0.4.1), scroll down
    to **Assets** and click **`Cry.of.Fear.Co-op.v0.4.1.zip`**.)
 2. Right-click the ZIP and choose **Extract All**.
 3. With Cry of Fear closed, run **`Install or Update.cmd`** (both players).
