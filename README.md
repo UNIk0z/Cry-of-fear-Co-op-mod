@@ -29,8 +29,8 @@
 
 > [!WARNING]
 > **This mod is unfinished.**
-> two-player test sessions, and you will run into bugs. Please report them on
-> the Discord (see [Reporting bugs](#reporting-bugs)).
+> max two players (for now), and you will run into bugs.
+> Please report them on the Discord (see [Reporting bugs](#reporting-bugs)).
 
 Cry of Fear's own co-op mode is a separate campaign. This mod lets two players
 play **Simon's single-player story** together instead.
