@@ -28,8 +28,8 @@
 4. To play, run **`Run Co-op Mod.cmd`**. See [Play](#2-play) below.
 
 > [!WARNING]
-> **This mod is unfinished.**
-> max two players (for now), and you will run into bugs.
+> **This mod is unfinished,**
+> max two players (for now), and you will run into bugs,
 > Please report them on the Discord (see [Reporting bugs](#reporting-bugs)).
 
 Cry of Fear's own co-op mode is a separate campaign. This mod lets two players
