@@ -4,7 +4,7 @@
 
 **Play Simon's single-player story in Cry of Fear with a friend.**
 
-**Not to be confused with COF Enhanced Coop Mod for Xash3D, this mod is for 1.6a Steam Version.**
+**Not to be confused with COF Enhanced Coop Mod for Xash3D, this mod is for latest Steam Version.**
 
 ![Status: early test build](https://img.shields.io/badge/status-early%20test%20build-orange?style=for-the-badge)
 ![Players: 2](https://img.shields.io/badge/players-2-555?style=for-the-badge)
