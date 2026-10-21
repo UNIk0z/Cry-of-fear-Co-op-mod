@@ -1,6 +1,6 @@
 <div align="center">
 
-# Cry of Fear Co-op
+# Cry of Fear Co-op (Steam Edition)
 
 **Play Simon's single-player story in Cry of Fear with a friend.**
 
