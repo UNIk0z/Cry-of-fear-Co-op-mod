@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "map": "c_start2_useselect",
+  "status": "VERIFIED_BY_USER_CORE_TRANSITION",
+  "sourceSha256": "3933456e6c0e8a449ec17e7829c9d69a8880a1e414b54dd6c0cf2b361483157e",
+  "outputSha256": "c4a310d5ff2ef72f8794044cbc38b9d3447f836b9a4ce07b02a92c8b245b1566",
+  "fileBytes": 18699580,
+  "entities": 447,
+  "edits": [
+    {
+      "entity": 51,
+      "start": 8363,
+      "end": 8468,
+      "to": "{\n\"origin\" \"1040 -1711 -896\"\n\"targetname\" \"d1_1_exit1\"\n\"angles\" \"0 270 0\"\n\"classname\" \"info_teleport_destination\"\n}"
+    },
+    {
+      "entity": 50,
+      "start": 7964,
+      "end": 8362,
+      "to": "{\n\"model\" \"*7\"\n\"renderamt\" \"255\"\n\"rendermode\" \"4\"\n\"rendercolor\" \"0 0 0\"\n\"target\" \"cof_story_use50\"\n\"spawnflags\" \"1\"\n\"wait\" \"1\"\n\"sounds\" \"3\"\n\"delay\" \"0\"\n\"classname\" \"func_button\"\n}"
+    },
+    {
+      "entity": 49,
+      "start": 7565,
+      "end": 7963,
+      "to": "{\n\"model\" \"*6\"\n\"renderamt\" \"255\"\n\"rendermode\" \"4\"\n\"rendercolor\" \"0 0 0\"\n\"target\" \"cof_story_use49\"\n\"spawnflags\" \"1\"\n\"wait\" \"1\"\n\"sounds\" \"3\"\n\"delay\" \"0\"\n\"classname\" \"func_button\"\n}"
+    },
+    {
+      "entity": 48,
+      "start": 7460,
+      "end": 7564,
+      "to": "{\n\"origin\" \"3655 -1257 -896\"\n\"targetname\" \"d1_1_exit2\"\n\"angles\" \"0 90 0\"\n\"classname\" \"info_teleport_destination\"\n}"
+    }
+  ],
+  "appendText": "\n{\n\"origin\" \"3656 -1278.5 -849.5\"\n\"targetname\" \"cof_story_use49\"\n\"target\" \"d1_1_exit1\"\n\"classname\" \"cof_teleport\"\n}\n{\n\"origin\" \"1039 -1689.5 -849.5\"\n\"targetname\" \"cof_story_use50\"\n\"target\" \"d1_1_exit2\"\n\"classname\" \"cof_teleport\"\n}\n{\n\"origin\" \"3656 -1278.5 -849.5\"\n\"targetname\" \"cof_story_use49\"\n\"message\" \"USE49 ACTIVATED\"\n\"spawnflags\" \"1\"\n\"x\" \"-1\"\n\"y\" \"0.2\"\n\"effect\" \"0\"\n\"color\" \"80 255 80\"\n\"color2\" \"80 255 80\"\n\"fadein\" \"0\"\n\"fadeout\" \"0.2\"\n\"holdtime\" \"3\"\n\"channel\" \"4\"\n\"classname\" \"game_text\"\n}\n{\n\"origin\" \"1039 -1689.5 -849.5\"\n\"targetname\" \"cof_story_use50\"\n\"message\" \"USE50 ACTIVATED\"\n\"spawnflags\" \"1\"\n\"x\" \"-1\"\n\"y\" \"0.2\"\n\"effect\" \"0\"\n\"color\" \"80 255 80\"\n\"color2\" \"80 255 80\"\n\"fadein\" \"0\"\n\"fadeout\" \"0.2\"\n\"holdtime\" \"3\"\n\"channel\" \"4\"\n\"classname\" \"game_text\"\n}\n",
+  "routes": [
+    {
+      "door": 49,
+      "model": "*6",
+      "exit": 51,
+      "destination": "d1_1_exit1",
+      "helper": "cof_story_use49",
+      "origin": "3656 -1278.5 -849.5"
+    },
+    {
+      "door": 50,
+      "model": "*7",
+      "exit": 48,
+      "destination": "d1_1_exit2",
+      "helper": "cof_story_use50",
+      "origin": "1039 -1689.5 -849.5"
+    }
+  ],
+  "activation": "V5 buttons/flags1/sound3/HUD markers unchanged. Only remove message empty keys from point teleporters443/444 to match native player records.",
+  "limitations": "V6 core VERIFIED BY USER: both actors independently use E, both directions and mutual models pass. Binary selector root cause unmeasured. Original audio/fade not implemented; simultaneous behavior/inventory/floor details not separately reported.",
+  "scope": "Exactly two empty message pairs removed from v5 point teleporters443/444. Button/HUD/sound/geometry/destination configuration unchanged.",
+  "runtimeVerification": "User tested759c141: P1/P2 independent E, both directions, mutual model visibility PASS. Audio/fade not implemented; simultaneous behavior not separately reported."
+}

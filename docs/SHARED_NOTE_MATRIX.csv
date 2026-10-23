@@ -1,0 +1,5 @@
+"map","note_id","collector","recipient","native_notification","new_journal_entry","readable_matching_content","duplicates","inventory_unchanged","visibility","door_story_regression","state","notes"
+"c_start2_coop_note","c_start2:N0243","P2","P1","NOT TESTED","NOT TESTED","NOT TESTED","NOT TESTED","NOT TESTED","NOT TESTED","NOT TESTED","NOT TESTED","Run A; P1 waits elsewhere"
+"c_start2_coop_note","c_start2:N0243","P2","P2","NOT TESTED","NOT TESTED","NOT TESTED","NOT TESTED","NOT TESTED","NOT TESTED","NOT TESTED","NOT TESTED","Run A"
+"c_start2_coop_note","c_start2:N0243","P1","P1","NOT TESTED","NOT TESTED","NOT TESTED","NOT TESTED","NOT TESTED","NOT TESTED","NOT TESTED","NOT TESTED","Run B; fresh session"
+"c_start2_coop_note","c_start2:N0243","P1","P2","NOT TESTED","NOT TESTED","NOT TESTED","NOT TESTED","NOT TESTED","NOT TESTED","NOT TESTED","NOT TESTED","Run B; P2 waits elsewhere"

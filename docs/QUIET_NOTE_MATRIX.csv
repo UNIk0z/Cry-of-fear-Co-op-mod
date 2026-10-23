@@ -1,0 +1,3 @@
+"map","collector","waiting_player","collector_reader","remote_popup_or_flash","remote_notification","later_readable_entry","duplicates","unrelated_menu_retained","models_and_doors","state"
+"c_start2_notequiet","P2","P1","REPORTED: note appears for P2","REPORTED: no remote reader","FAIL: absent","FAIL: no addition","NOT TESTED","NOT TESTED","NOT TESTED","USER FAILED REMOTE DELIVERY 2026-10-09"
+"c_start2_notequiet","P1","P2","NOT TESTED","NOT TESTED","NOT TESTED","NOT TESTED","NOT TESTED","NOT TESTED","NOT TESTED","NOT TESTED"

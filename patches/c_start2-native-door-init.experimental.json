@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "status": "EXPERIMENTAL_NOT_RUNTIME_TESTED",
+  "map": "c_start2_doornative",
+  "sourceSha256": "3933456e6c0e8a449ec17e7829c9d69a8880a1e414b54dd6c0cf2b361483157e",
+  "outputSha256": "fd4979bbb018c1b3f9a4f0d1ce06fd0cc05ce1ff8b9ffb84e291c07943b3049c",
+  "outputBytes": 18699315,
+  "entityCount": 443,
+  "entityTextInsertionOffset": 718,
+  "modifiedEntity": 0,
+  "addedPairs": [["player1", "police1"], ["player2", "police2"], ["player3", "police3"], ["player4", "police4"]],
+  "references": ["SDK worldspawn player1..4 definitions", "cof_campaign_01_p4 worldspawn", "c_cof_asylum1 worldspawn"],
+  "hypothesis": "Native per-slot model declarations may allow original Use doors to restore multiplayer model state correctly.",
+  "counterexample": "c_cof_asylum1day contains same-map inter_door/inter_door_exit pairs without these declarations; the exact doors' gameplay behavior has not been verified.",
+  "preserved": "All original entity pairs, original door/exit records, targets, locks, sounds, fades, spawns and 14 non-entity lump ranges/bytes. No helpers or class swaps.",
+  "limitations": "Not a verified different cooperative execution path or visibility fix. Uses standard police1..4 slot models; custom skins untested. Cross-map return routing remains stock."
+}

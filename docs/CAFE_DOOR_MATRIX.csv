@@ -1,0 +1,6 @@
+"map","door_id","actor","enabled_at_correct_moment","E_move","sound_fade","mutual_models","repeat","removal","reload_reset","concurrency_overlap","state","notes"
+"c_start2_coop_full","c_start2:D0204/D0206","UNSPECIFIED","UNKNOWN","FAILED USER REPORT","UNKNOWN","UNKNOWN","NOT TESTED","NOT TESTED","NOT TESTED","NOT TESTED","FAILED UNCONVERTED PAIR","Cafe transitions still fail; precise actor/side/story stage not reported"
+"c_start2_coop_cafe","c_start2:D0204","P1","NOT TESTED","NOT TESTED","NOT TESTED","NOT TESTED","NOT TESTED","NOT TESTED","NOT TESTED","NOT TESTED","NOT TESTED","Entrance; enabled initially, removed by computer story sequence"
+"c_start2_coop_cafe","c_start2:D0204","P2","NOT TESTED","NOT TESTED","NOT TESTED","NOT TESTED","NOT TESTED","NOT TESTED","NOT TESTED","NOT TESTED","NOT TESTED","Entrance"
+"c_start2_coop_cafe","c_start2:D0206","P1","NOT TESTED","NOT TESTED","NOT TESTED","NOT TESTED","NOT TESTED","NOT TESTED","NOT TESTED","NOT TESTED","NOT TESTED","Return; disabled until trigger413; removed by story sequence"
+"c_start2_coop_cafe","c_start2:D0206","P2","NOT TESTED","NOT TESTED","NOT TESTED","NOT TESTED","NOT TESTED","NOT TESTED","NOT TESTED","NOT TESTED","NOT TESTED","Return"

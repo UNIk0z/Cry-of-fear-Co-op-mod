@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "candidate": "RC4 opening hotfix001",
+  "implementationCommit": "b1852bc520a99479a33688e7758ac1b0b3095ca8",
+  "automatedStatus": "PASS",
+  "node": {
+    "passed": 60,
+    "failed": 0,
+    "skipped": 0,
+    "excludedKnownEnvironmentFiles": [
+      "staging.test.mjs",
+      "runtime-staging.test.mjs"
+    ]
+  },
+  "native": {
+    "fixtureSuites": 4,
+    "exports": 846,
+    "verifiedJumpSlots": 843,
+    "compileAndLinkWarningsAsErrors": true,
+    "originalBackendLoaded": false,
+    "adapterSha256": "c94319d88729018acc252c4eba5760f59e337bf7ce4558abb664450c4d06d433",
+    "bytes": 321024,
+    "openingPlayerWritesDisabled": true,
+    "laterPersistenceRetained": true
+  },
+  "installer": {
+    "passed": 108,
+    "includesPreviousUpgradeAndNewerRemovalRefusal": true,
+    "packagedPowerShellParses": 6,
+    "actualGameWrites": false
+  },
+  "maps": [
+    {
+      "map": "cof_campaign_story4",
+      "sha256": "907d89b6eb5c4553a1a94042b4827be9ace294bf415b1329db39b1a2f37f39a0",
+      "changedEntities": [
+        277
+      ],
+      "allNonEntityLumpContentsUnchanged": true,
+      "modelLumpOffsetDelta": -28,
+      "byteIdenticalToFailedRC4": false
+    },
+    {
+      "map": "s4_nightmare",
+      "sha256": "8c8c6d33bcc4bde8bb1678d746273bd40ea83051960a985836ce5072b3447abf",
+      "changedEntities": [],
+      "allNonEntityLumpContentsUnchanged": true,
+      "modelLumpOffsetDelta": 0,
+      "byteIdenticalToFailedRC4": true
+    },
+    {
+      "map": "s4_start",
+      "sha256": "47e6cf7076e8e697be04346ad3dc977d4fb6d8148e10aa23f3c6af0008d437e0",
+      "changedEntities": [],
+      "allNonEntityLumpContentsUnchanged": true,
+      "modelLumpOffsetDelta": 0,
+      "byteIdenticalToFailedRC4": true
+    },
+    {
+      "map": "s4_start_e0",
+      "sha256": "4dc3e6acbceebdbbb06fd99be51399920e70d92914d826f4be7c99f03cc1b6be",
+      "changedEntities": [],
+      "allNonEntityLumpContentsUnchanged": true,
+      "modelLumpOffsetDelta": 0,
+      "byteIdenticalToFailedRC4": true
+    },
+    {
+      "map": "s4_start2",
+      "sha256": "91becf32f71e34c6b71ed57d4b4c65b2b4ef0db1ff5f44a4f421ed844dcff80a",
+      "changedEntities": [],
+      "allNonEntityLumpContentsUnchanged": true,
+      "modelLumpOffsetDelta": 0,
+      "byteIdenticalToFailedRC4": true
+    }
+  ],
+  "preserved": [
+    {
+      "file": "outputs/rc3-two-client-test.zip",
+      "sha256": "6799c34cc6a79d196a1fcb94372bc1a72e03e4a05482b8dc7497e4e172cd3d59",
+      "unchanged": true
+    },
+    {
+      "file": "outputs/rc4-two-client-test.zip",
+      "sha256": "4104710b7c1639d89834298638db93812c22996de87f59f5a0ac0f6f66889399",
+      "unchanged": true
+    },
+    {
+      "file": "outputs/connected-story-campaign-rc2.zip",
+      "sha256": "eb1cddefe24dab11a262ea9d9ccda527d0e4938a0ff123dd94ea0c9541472fbf",
+      "unchanged": true
+    },
+    {
+      "file": "outputs/story-opening-rc3.zip",
+      "sha256": "e5075d89823c71ef2d6af70a8a1dfb72619c640acdb87ad5fcbfd484906ac0c5",
+      "unchanged": true
+    },
+    {
+      "file": "work/rc3-opening-build-007/cof_campaign_story3.bsp",
+      "sha256": "eaa4b29ee0ded1e7432e56c054da75ae507e62fe541b841035a3fa2ccc3b332b",
+      "unchanged": true
+    },
+    {
+      "file": "work/rc3-opening-build-007/s3_nightmare.bsp",
+      "sha256": "0f1614b85210699ba9849c145da85d8ea6c2a142be41430491cb2ecfefbe082f",
+      "unchanged": true
+    },
+    {
+      "file": "work/rc3-opening-build-007/s3_start.bsp",
+      "sha256": "68b8e2e273a984627d373427a1c6a35eac8bec2f10cea3404848ce42ee613204",
+      "unchanged": true
+    },
+    {
+      "file": "work/runtime-baseline-001/cryoffear/cl_dlls/hl.dll",
+      "sha256": "0036b91c01e92ed205513f52563053a55a66a32d257efb5f476b8f1f3dde0e63",
+      "unchanged": true
+    }
+  ],
+  "gameplay": {
+    "rc3": "USER OBSERVED tested two-client opening/nightmare/wake PASS",
+    "failedRC4": "USER OBSERVED missing vehicle and stalled intro",
+    "hotfix": "AWAITING FIRST focused two-client opening test",
+    "persistence": "UNVERIFIED; DEFERRED UNTIL OPENING PASSES",
+    "gameLaunchedByCodex": false,
+    "busOrStallRootCause": "NOT ESTABLISHED",
+    "rainWarningCause": "native dynamic rain_modify Use refuses multiplayer and returns"
+  },
+  "changedInstalledFiles": [
+    "maps/cof_campaign_story4.bsp",
+    "cl_dlls/storycoop_rc4.dll"
+  ],
+  "archive": {
+    "sha256": "865792bb4d91a6e8d3f5ea79e10e000782f0433f632ccf6c38cc9a796b59ac32",
+    "originalAssetsAbsent": true,
+    "file": "rc4-intro-hotfix.zip",
+    "allEntriesEqualPackage": true,
+    "entries": 34,
+    "bytes": 233854
+  }
+}

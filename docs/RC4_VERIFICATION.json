@@ -1,0 +1,47 @@
+{
+  "zip": {
+    "path": "C:\\Users\\Uni\\Documents\\Codex\\2026-10-09\\cry-of-fear-story-co-op\\outputs\\rc4-two-client-test.zip",
+    "sha256": "4104710b7c1639d89834298638db93812c22996de87f59f5a0ac0f6f66889399",
+    "allEntriesMatch": true,
+    "files": 31,
+    "bytes": 222296
+  },
+  "mapCommit": "bc962312b589579d62da742b1064367d5e3ff38b",
+  "node": {
+    "pass": 59,
+    "fail": 0,
+    "skip": 0,
+    "knownEnvironmentFilesExcluded": 2
+  },
+  "packageCommit": "b89b7b15c2e7e685786f39741a2831f62900918e",
+  "nativeArtifact": {
+    "bytes": 311296,
+    "jumpStubs": 843,
+    "api": 140,
+    "sha256": "2648d169398493a2577ce8c9de8bd62c0f8fe290db5c9d357b8adedf47dae8e0",
+    "exactExports": 846,
+    "architecture": "x86"
+  },
+  "nativeFixtureSuites": {
+    "pass": 4,
+    "proprietaryGameDllLoaded": false
+  },
+  "gameplay": {
+    "diskSaving": "NOT_IMPLEMENTED",
+    "RC3": "USER_OBSERVED_TESTED_OPENING_FLOW",
+    "RC4": "NOT_OBSERVED"
+  },
+  "installerAssertions": {
+    "actualGameInstallOrLaunch": false,
+    "pass": 78
+  },
+  "date": "2026-10-09",
+  "nativeCommit": "7d1f994ab8625511b96aeef84526b1c07fc18872",
+  "status": "EXPERIMENTAL_AWAITING_REAL_TWO_CLIENT_GAMEPLAY",
+  "baselines": {
+    "RC3build005ZipSha256": "e5075d89823c71ef2d6af70a8a1dfb72619c640acdb87ad5fcbfd484906ac0c5",
+    "allRecheckedUnchanged": true,
+    "RC2ZipSha256": "eb1cddefe24dab11a262ea9d9ccda527d0e4938a0ff123dd94ea0c9541472fbf",
+    "RC3build007ZipSha256": "6799c34cc6a79d196a1fcb94372bc1a72e03e4a05482b8dc7497e4e172cd3d59"
+  }
+}

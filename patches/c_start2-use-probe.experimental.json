@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "map": "c_start2_useprobe",
+  "status": "EXPERIMENTAL_NOT_RUNTIME_TESTED",
+  "sourceSha256": "3933456e6c0e8a449ec17e7829c9d69a8880a1e414b54dd6c0cf2b361483157e",
+  "outputSha256": "79c096cc82cf6d7f12f25189904a84cd3de26b3f4ceb5b833ba0821bf165c9b4",
+  "fileBytes": 18699606,
+  "entities": 447,
+  "edits": [
+    {
+      "entity": 51,
+      "start": 8363,
+      "end": 8468,
+      "to": "{\n\"origin\" \"1040 -1711 -896\"\n\"targetname\" \"d1_1_exit1\"\n\"angles\" \"0 270 0\"\n\"classname\" \"info_teleport_destination\"\n}"
+    },
+    {
+      "entity": 50,
+      "start": 7964,
+      "end": 8362,
+      "to": "{\n\"model\" \"*7\"\n\"renderamt\" \"255\"\n\"rendermode\" \"4\"\n\"rendercolor\" \"0 0 0\"\n\"target\" \"cof_story_use50\"\n\"spawnflags\" \"1\"\n\"wait\" \"1\"\n\"sounds\" \"3\"\n\"delay\" \"0\"\n\"classname\" \"func_button\"\n}"
+    },
+    {
+      "entity": 49,
+      "start": 7565,
+      "end": 7963,
+      "to": "{\n\"model\" \"*6\"\n\"renderamt\" \"255\"\n\"rendermode\" \"4\"\n\"rendercolor\" \"0 0 0\"\n\"target\" \"cof_story_use49\"\n\"spawnflags\" \"1\"\n\"wait\" \"1\"\n\"sounds\" \"3\"\n\"delay\" \"0\"\n\"classname\" \"func_button\"\n}"
+    },
+    {
+      "entity": 48,
+      "start": 7460,
+      "end": 7564,
+      "to": "{\n\"origin\" \"3655 -1257 -896\"\n\"targetname\" \"d1_1_exit2\"\n\"angles\" \"0 90 0\"\n\"classname\" \"info_teleport_destination\"\n}"
+    }
+  ],
+  "appendText": "\n{\n\"origin\" \"3656 -1278.5 -849.5\"\n\"targetname\" \"cof_story_use49\"\n\"target\" \"d1_1_exit1\"\n\"message\" \"\"\n\"classname\" \"cof_teleport\"\n}\n{\n\"origin\" \"1039 -1689.5 -849.5\"\n\"targetname\" \"cof_story_use50\"\n\"target\" \"d1_1_exit2\"\n\"message\" \"\"\n\"classname\" \"cof_teleport\"\n}\n{\n\"origin\" \"3656 -1278.5 -849.5\"\n\"targetname\" \"cof_story_use49\"\n\"message\" \"USE49 ACTIVATED\"\n\"spawnflags\" \"1\"\n\"x\" \"-1\"\n\"y\" \"0.2\"\n\"effect\" \"0\"\n\"color\" \"80 255 80\"\n\"color2\" \"80 255 80\"\n\"fadein\" \"0\"\n\"fadeout\" \"0.2\"\n\"holdtime\" \"3\"\n\"channel\" \"4\"\n\"classname\" \"game_text\"\n}\n{\n\"origin\" \"1039 -1689.5 -849.5\"\n\"targetname\" \"cof_story_use50\"\n\"message\" \"USE50 ACTIVATED\"\n\"spawnflags\" \"1\"\n\"x\" \"-1\"\n\"y\" \"0.2\"\n\"effect\" \"0\"\n\"color\" \"80 255 80\"\n\"color2\" \"80 255 80\"\n\"fadein\" \"0\"\n\"fadeout\" \"0.2\"\n\"holdtime\" \"3\"\n\"channel\" \"4\"\n\"classname\" \"game_text\"\n}\n",
+  "routes": [
+    {
+      "door": 49,
+      "model": "*6",
+      "exit": 51,
+      "destination": "d1_1_exit1",
+      "helper": "cof_story_use49",
+      "origin": "3656 -1278.5 -849.5"
+    },
+    {
+      "door": 50,
+      "model": "*7",
+      "exit": 48,
+      "destination": "d1_1_exit2",
+      "helper": "cof_story_use50",
+      "origin": "1039 -1689.5 -849.5"
+    }
+  ],
+  "activation": "Button flags1 as original computer button245; direct target fan-out to unchanged point teleporter plus game_text marker. Sound3 diagnostic cue.",
+  "limitations": "V4 failed with no E relocation. Flag16 restriction hypothesis only; HUD/sound cues diagnose activation. Point selection/hull/reset/visibility still unverified. Solids remain as v4; no touch activation or door presentation restored.",
+  "scope": "From v4: remove DirectUseOnly on buttons49/50; add sound3 and two HUD dispatch markers. Existing point teleporters/destinations unchanged. Helper-name duplication is deliberate fan-out."
+}

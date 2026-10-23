@@ -1,0 +1,437 @@
+{
+  "schemaVersion": 1,
+  "candidate": "RC4 notes-regression-001",
+  "implementationCommit": "627679532e336e771f922ee4d45b26415c79321d",
+  "nativeFixCommit": "535684d19c744f73ac8f45041d064de78a8f122c",
+  "status": "AUTOMATED CHECKS PASSED; NOTE GAMEPLAY PENDING; VEHICLE UNRESOLVED",
+  "node": {
+    "passed": 65,
+    "failed": 0,
+    "skipped": 0,
+    "excludedKnownEnvironmentFiles": [
+      "staging.test.mjs",
+      "runtime-staging.test.mjs"
+    ]
+  },
+  "native": {
+    "fixtureSuites": 6,
+    "exports": 846,
+    "verifiedJumpSlots": 843,
+    "compileAndLinkWarningsAsErrors": true,
+    "originalBackendLoaded": false,
+    "adapterSha256": "96f1b477050d1c297497fd10ca1d0449fcab20c2711d42185f6fbb88ec2ee21f",
+    "bytes": 459776,
+    "sourcePins": 9,
+    "fourRecipientNoteDeliveryAndRepeatReaderPackets": true,
+    "rejectedBankRetained": true,
+    "originalVisibilityCallbackArgumentsAndResultRetained": true
+  },
+  "installer": {
+    "passed": 141,
+    "previousMaintenanceUpgradeAndRollback": true,
+    "unknownAndNewerAdapterRefusal": true,
+    "hostCheckpointFilesRetained": true,
+    "actualGameWrites": false
+  },
+  "continueLauncher": {
+    "passed": 9,
+    "readOnly": true,
+    "gameLaunched": false,
+    "validFixtureInput": "preserved checksummed backup; native fixture intentionally corrupts primary"
+  },
+  "packagedPowerShellParses": 7,
+  "noteAudit": {
+    "sourceMaps": 81,
+    "retainedConvertedAliases": 195,
+    "originalNoteEntities": 18,
+    "document": 14,
+    "passwordnote": 2,
+    "virtualCodeNote": 2,
+    "convertedNoteAliases": 27,
+    "fullWidthOrTruncatedCredentialIds": 6,
+    "sha256": "0a8d4be29b751be3754aa615a3dc5af6290b033a42ea3d05af3bc10be984cbef"
+  },
+  "maps": [
+    {
+      "map": "cof_campaign_story4",
+      "sha256": "d78c7a076dd4307b560f23edf83526bf1f7696540deb2cd28b46b43720195686",
+      "byteIdenticalToMaintenance": true,
+      "originalBodyRetained": true
+    },
+    {
+      "map": "s4_nightmare",
+      "sha256": "8c8c6d33bcc4bde8bb1678d746273bd40ea83051960a985836ce5072b3447abf",
+      "byteIdenticalToMaintenance": true,
+      "originalBodyRetained": true
+    },
+    {
+      "map": "s4_start",
+      "sha256": "d5327356eecc54d5e1205977331d1fe5cbe23082d1ff5bbc9166a969d017d6d8",
+      "byteIdenticalToMaintenance": true,
+      "originalBodyRetained": true
+    },
+    {
+      "map": "s4_start_e0",
+      "sha256": "522964e8f50bd2b2e195e2020058231d833d42665137b0ae0e9b9bbe9d4b635d",
+      "byteIdenticalToMaintenance": true,
+      "originalBodyRetained": true
+    },
+    {
+      "map": "s4_start2",
+      "sha256": "91becf32f71e34c6b71ed57d4b4c65b2b4ef0db1ff5f44a4f421ed844dcff80a",
+      "byteIdenticalToMaintenance": true,
+      "originalBodyRetained": true
+    },
+    {
+      "map": "s4_apartment1_e3",
+      "sha256": "c34d761377d46a2de3acdb532cf97025db58c75faedfbebfbc2e16efd7a94f52",
+      "byteIdenticalToMaintenance": true,
+      "originalBodyRetained": true
+    },
+    {
+      "map": "s4_apartment1_e7",
+      "sha256": "d3856eaf7835cff26ef933da98c61fd6d84ef2b904c34aa6b0715d6a13343a9c",
+      "byteIdenticalToMaintenance": true,
+      "originalBodyRetained": true
+    },
+    {
+      "map": "s4_start_e2",
+      "sha256": "4e253391d54aab798948c7b0ff06050965ae12c6c8e5f8a7bc45b42c450265bb",
+      "byteIdenticalToMaintenance": true,
+      "originalBodyRetained": true
+    }
+  ],
+  "preserved": [
+    {
+      "file": "outputs/rc3-two-client-test.zip",
+      "sha256": "6799c34cc6a79d196a1fcb94372bc1a72e03e4a05482b8dc7497e4e172cd3d59",
+      "unchanged": true
+    },
+    {
+      "file": "outputs/rc4-two-client-test.zip",
+      "sha256": "4104710b7c1639d89834298638db93812c22996de87f59f5a0ac0f6f66889399",
+      "unchanged": true
+    },
+    {
+      "file": "outputs/connected-story-campaign-rc2.zip",
+      "sha256": "eb1cddefe24dab11a262ea9d9ccda527d0e4938a0ff123dd94ea0c9541472fbf",
+      "unchanged": true
+    },
+    {
+      "file": "outputs/story-opening-rc3.zip",
+      "sha256": "e5075d89823c71ef2d6af70a8a1dfb72619c640acdb87ad5fcbfd484906ac0c5",
+      "unchanged": true
+    },
+    {
+      "file": "work/rc3-opening-build-007/cof_campaign_story3.bsp",
+      "sha256": "eaa4b29ee0ded1e7432e56c054da75ae507e62fe541b841035a3fa2ccc3b332b",
+      "unchanged": true
+    },
+    {
+      "file": "work/rc3-opening-build-007/s3_nightmare.bsp",
+      "sha256": "0f1614b85210699ba9849c145da85d8ea6c2a142be41430491cb2ecfefbe082f",
+      "unchanged": true
+    },
+    {
+      "file": "work/rc3-opening-build-007/s3_start.bsp",
+      "sha256": "68b8e2e273a984627d373427a1c6a35eac8bec2f10cea3404848ce42ee613204",
+      "unchanged": true
+    },
+    {
+      "file": "work/runtime-baseline-001/cryoffear/cl_dlls/hl.dll",
+      "sha256": "0036b91c01e92ed205513f52563053a55a66a32d257efb5f476b8f1f3dde0e63",
+      "unchanged": true
+    },
+    {
+      "file": "outputs/rc4-intro-hotfix.zip",
+      "sha256": "865792bb4d91a6e8d3f5ea79e10e000782f0433f632ccf6c38cc9a796b59ac32",
+      "unchanged": true
+    },
+    {
+      "file": "outputs/rc4-intro-hotfix/release.json",
+      "sha256": "8e5f2a632fcda95403772d5448977b4acd02e474f22ef9c97c845082f113cecf",
+      "unchanged": true
+    },
+    {
+      "file": "outputs/rc4-maintenance-test.zip",
+      "sha256": "fc8fe53d6cc5086bef4f0e863b8cac6b77bc03f69ecc06dea101d4b80196082a",
+      "unchanged": true
+    },
+    {
+      "file": "outputs/rc4-maintenance-test/release.json",
+      "sha256": "9e7e15fcb3f5ac2fbad219c294d31fe1d812bda6fa476a0f65a4dd8ae9c60b8e",
+      "unchanged": true
+    }
+  ],
+  "observedInstalledOriginalSha256": {
+    "c_intro.bsp": "656980821d003a1d7974aaccb73210547d449318cacdf7661b0e03803f49a140",
+    "c_nightmare.bsp": "c6f78abb7ebc8299c62db69a018f652bdd9f35915cb90dd2d46257699c00ba65",
+    "c_start.bsp": "72d1520baf7950ba056c6bc53310612c8582e83488a4df690199045e67815415",
+    "c_start2.bsp": "3933456e6c0e8a449ec17e7829c9d69a8880a1e414b54dd6c0cf2b361483157e",
+    "c_apartment1.bsp": "8777047485e8adeaf6e8c473cedcd48470207a32831b5df5e3e111c3d0c99bbc",
+    "hl.dll": "0036b91c01e92ed205513f52563053a55a66a32d257efb5f476b8f1f3dde0e63"
+  },
+  "suppliedLog": {
+    "lines": 461,
+    "bytes": 17954,
+    "sha256": "c36e2e30d90901445366edb9ac07e45950c94050328e12cdab54103354a98305",
+    "completeFileRead": true,
+    "independentP2Log": false,
+    "exactReaderErrorPresent": false
+  },
+  "gameplay": {
+    "automaticIntroProgression": "VERIFIED WORKING by user in maintenance; BSP unchanged",
+    "newNoteCorrection": "AWAITING TWO-CLIENT GAMEPLAY",
+    "vehicle": "FAILED IN USER TEST; runtime cause/correction UNRESOLVED; diagnostics only",
+    "fourActivePlayers": "NOT GAMEPLAY VERIFIED",
+    "checkpoint": "previous maintenance verification boundaries retained",
+    "gameLaunchedByCodex": false,
+    "gameInstalledByCodex": false
+  },
+  "userDoorTestEdit": "retained uncommitted/untouched",
+  "archive": {
+    "file": "rc4-note-regression-test.zip",
+    "bytes": 349872,
+    "sha256": "fc5331af7be030f1c560d7c3002fd67c9486944eda8030c36da6732abc5349ac",
+    "originalAssetsAbsent": true,
+    "entries": 47,
+    "allEntriesEqualPackage": true,
+    "manifest": [
+      {
+        "sha256": "efdebe0ff369eda3f29563b0b73c64de07dd8b0047536471a0630d179287110a",
+        "bytes": 7289,
+        "file": "CHECKPOINT.md"
+      },
+      {
+        "sha256": "1719e444c80fe93bd2e50d9aec3efb48809e7627fda5d722ed3594e6e13d9090",
+        "bytes": 1139,
+        "file": "collect-story-log.ps1"
+      },
+      {
+        "sha256": "cd3d22a173f5ab3676e18ebffffd24f716a268211486e22f7ab14e1736e697a8",
+        "bytes": 165,
+        "file": "Continue RC4 slot1.cmd"
+      },
+      {
+        "sha256": "f86bdc5f6606e7c76f56948c4872b060dd254767e82bbdb9fcf48dc1e4fffa90",
+        "bytes": 7905,
+        "file": "DIAGNOSTICS.md"
+      },
+      {
+        "sha256": "8060a76516938705f65c115178a489a3c597d642c0ec2cca58a03031c2fb3e90",
+        "bytes": 185,
+        "file": "Host RC4.cmd"
+      },
+      {
+        "sha256": "390c382c469fdce5a2ebe30665cb63c1f9ede0dd2cb882bdd8015b8841b75fb4",
+        "bytes": 2494,
+        "file": "host-story-coop.ps1"
+      },
+      {
+        "sha256": "e2c1762fdec651112ac9c3f5455538920273f26b075c70367355a3f37e9a5baf",
+        "bytes": 14270,
+        "file": "install-story-package.ps1"
+      },
+      {
+        "sha256": "4b676739af199d49a49b7771862bd6ae96f25b1c275ce20b1b1c5fe4f9d53c08",
+        "bytes": 155,
+        "file": "install.cmd"
+      },
+      {
+        "sha256": "0a8d4be29b751be3754aa615a3dc5af6290b033a42ea3d05af3bc10be984cbef",
+        "bytes": 57704,
+        "file": "NOTE_AUDIT.json"
+      },
+      {
+        "sha256": "84fb24bfedd4b165963ab460f345c84a44f796c6bf1c82130fe87ed4cb3b72c8",
+        "bytes": 6808,
+        "file": "QA.json"
+      },
+      {
+        "sha256": "76d7391e7e61f40b0916edc710cdb48a4767782b3edcac5ba7a3d61db47be5e1",
+        "bytes": 2160,
+        "file": "read-coop-checkpoint.ps1"
+      },
+      {
+        "sha256": "cb7085f9b2035d299343492df16eb437063850853d1e78830e7c6e028e94b628",
+        "bytes": 1886,
+        "file": "README.md"
+      },
+      {
+        "sha256": "3b1ff5002c129a5d26327c9c59eb8ef0b4846f0e7b3480251dbbb12f851c64ae",
+        "bytes": 10490,
+        "file": "release.json"
+      },
+      {
+        "sha256": "c72fa53f68ffe2ae6f1ec935dedf8923ff35efeed8bad02f8ee9ece81ebbc55d",
+        "bytes": 185,
+        "file": "remove previous RC4.cmd"
+      },
+      {
+        "sha256": "a61ff8a446bb0bbdfa9a42327e76ef860e0e0f3a0b5ee1297318b4efbbf068d8",
+        "bytes": 163,
+        "file": "remove.cmd"
+      },
+      {
+        "sha256": "ccf852e5f5ec64a32958332c789c54b31ce384db4a6e61c6f18cb31a086896ea",
+        "bytes": 1057,
+        "file": "SOURCE.md"
+      },
+      {
+        "sha256": "34143130c2c86e29a9137bba741d801b6a7636133677a6264b783f8eb9ed21d6",
+        "bytes": 2691,
+        "file": "START_HERE.md"
+      },
+      {
+        "sha256": "07a5520d1f7c979172a9e55afa87b703b6159adfb2339a89137afcadea5c35e5",
+        "bytes": 125570,
+        "file": "state-report.json"
+      },
+      {
+        "sha256": "f2f10673c9ed2941fa04f8b3fca30e71c7eccae2157d28288409b692af0014f2",
+        "bytes": 2727,
+        "file": "TESTING.md"
+      },
+      {
+        "sha256": "b6d9a84811b0c75379c743400f9e8d6c947448cd8f8ee36a3b07ed6edda3a1d2",
+        "bytes": 1434,
+        "file": "native/build-report.json"
+      },
+      {
+        "sha256": "96f1b477050d1c297497fd10ca1d0449fcab20c2711d42185f6fbb88ec2ee21f",
+        "bytes": 459776,
+        "file": "native/storycoop_rc4.dll"
+      },
+      {
+        "sha256": "41f09c49f224b520e16ae8b1818b14a3f2c16bc301592bc8426469cda691f148",
+        "bytes": 15097,
+        "file": "plans/cof_campaign_story4.json"
+      },
+      {
+        "sha256": "b7b317742d65518e85e0aa0860ea699386ada53853ad571adcda270aaaea727e",
+        "bytes": 37579,
+        "file": "plans/s4_apartment1_e3.json"
+      },
+      {
+        "sha256": "3118a7876642bbeac2b12669990367750841c6429976ffe0724380825075640f",
+        "bytes": 37950,
+        "file": "plans/s4_apartment1_e7.json"
+      },
+      {
+        "sha256": "cd3b5538bbe936ed7cb4879a412918ea4886c6c4997f5ca4ea8cdb1f4e1d578c",
+        "bytes": 23915,
+        "file": "plans/s4_nightmare.json"
+      },
+      {
+        "sha256": "5b374c4f9fdc5d3fbe260da188975020460df68a93a0ab9874e134e58e85020f",
+        "bytes": 38351,
+        "file": "plans/s4_start.json"
+      },
+      {
+        "sha256": "52c1689a58b20ceb32cee0082f6bd0b5fec70ae30a2befb695ae0c90ab97b7f9",
+        "bytes": 20300,
+        "file": "plans/s4_start2.json"
+      },
+      {
+        "sha256": "b367a7819a70254b46ffb3488c05328d9364bf0457fa5cd8b8998294bac7ab17",
+        "bytes": 32094,
+        "file": "plans/s4_start_e0.json"
+      },
+      {
+        "sha256": "e83ea4d638dbdefa8b85468153434cf5dab6642b45a83938d1185a1ffb52f3f8",
+        "bytes": 31989,
+        "file": "plans/s4_start_e2.json"
+      },
+      {
+        "sha256": "e2c1762fdec651112ac9c3f5455538920273f26b075c70367355a3f37e9a5baf",
+        "bytes": 14270,
+        "file": "previous-rc4-rollback/install-story-package.ps1"
+      },
+      {
+        "sha256": "9e7e15fcb3f5ac2fbad219c294d31fe1d812bda6fa476a0f65a4dd8ae9c60b8e",
+        "bytes": 10157,
+        "file": "previous-rc4-rollback/release.json"
+      },
+      {
+        "sha256": "065e2e8c6f648a95d283415c8f47816fdacde4e0363801ecac95b7a76bce0803",
+        "bytes": 694,
+        "file": "source/native-rc4/abi.hpp"
+      },
+      {
+        "sha256": "be279fae141089ea256264e0a6344e868c818164ab0b3c84472c9330c57297f6",
+        "bytes": 25187,
+        "file": "source/native-rc4/adapter.cpp"
+      },
+      {
+        "sha256": "c13f701c0be33ca7a7aecd04b3c641e79df36d68c3284dcdf68efb6f457a4057",
+        "bytes": 6311,
+        "file": "source/native-rc4/build.ps1"
+      },
+      {
+        "sha256": "cf43d8f21e5240b8f1d5cb23631626165fb92daa587e408afd77997450d91245",
+        "bytes": 20617,
+        "file": "source/native-rc4/checkpoint-runtime.hpp"
+      },
+      {
+        "sha256": "80ce11310d4b3e64bdd092b41133f7e0fa238eecd4c16a2ab736afaf1ace3a79",
+        "bytes": 13172,
+        "file": "source/native-rc4/checkpoint.cpp"
+      },
+      {
+        "sha256": "7b01824fa78b58613588c22cbadb90fd5fbabac1a30711556d0d85ca3bd22343",
+        "bytes": 1520,
+        "file": "source/native-rc4/checkpoint.hpp"
+      },
+      {
+        "sha256": "a22a7c64c67854821640b54bc3caa3528415c47bb21d3d52bf4d03af8a5fc1c3",
+        "bytes": 3757,
+        "file": "source/native-rc4/journal.cpp"
+      },
+      {
+        "sha256": "6b8679240f509788ad6107c7e3b8bfeeb02ddab298f7d3d730c69044e97421da",
+        "bytes": 1727,
+        "file": "source/native-rc4/journal.hpp"
+      },
+      {
+        "sha256": "c6eb76b95fe766c58aa982906d06421f72c1237340a5495cce0c11a346809f74",
+        "bytes": 18544,
+        "file": "source/native-rc4/puzzle.cpp"
+      },
+      {
+        "sha256": "102448235cf56028c584d6482fae5deb8a0b7c6d6be2970f45596ffa4b1c65fc",
+        "bytes": 3233,
+        "file": "source/native-rc4/puzzle.hpp"
+      },
+      {
+        "sha256": "08c6c2a62ec8c7ccbb21141ae9e6a4c33b67e0089bc2d3e28e56f4d7ff5a0f73",
+        "bytes": 14475,
+        "file": "source/native-rc4/test-adapter.cpp"
+      },
+      {
+        "sha256": "490c02cc5eae0b66cf290347ae53b6d2b77aef6bf67b6107613e9888871c0c8d",
+        "bytes": 9381,
+        "file": "source/native-rc4/test-checkpoint-runtime.cpp"
+      },
+      {
+        "sha256": "99d2382adf27efcb73c0bd920365a997f5c8361ad1eabd6f2bb35c107c332c1f",
+        "bytes": 4018,
+        "file": "source/native-rc4/test-checkpoint.cpp"
+      },
+      {
+        "sha256": "79bcc2c776ce298b96b31b3ba7a3207a63207262ccd24904150b26f1293c755f",
+        "bytes": 3385,
+        "file": "source/native-rc4/test-journal.cpp"
+      },
+      {
+        "sha256": "97a446270660d6893517c5af9e5639bc2827138ce5d82bd8dc2f700f78528d86",
+        "bytes": 1269,
+        "file": "source/native-rc4/test-probe.cpp"
+      },
+      {
+        "sha256": "b172c701cb873d50b2f06351057e3912c69c4688b1baccca96f85ce76961e7b0",
+        "bytes": 2480,
+        "file": "source/native-rc4/test.ps1"
+      }
+    ]
+  }
+}

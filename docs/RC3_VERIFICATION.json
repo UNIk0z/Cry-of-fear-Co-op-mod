@@ -1,0 +1,1267 @@
+{
+  "date": "2026-10-09",
+  "implementationCommit": "80dc7dc7c30e86d6b67ee59d89c4be625b6331ac",
+  "build": "work/rc3-opening-build-007",
+  "node": {
+    "excludedKnownEnvironmentFiles": [
+      "staging.test.mjs",
+      "runtime-staging.test.mjs"
+    ],
+    "skipped": 0,
+    "failed": 0,
+    "passed": 53,
+    "log": "work/rc3-resume-001/node-tests-007.log"
+  },
+  "windowsPowerShellFixture": {
+    "gameWrites": false,
+    "runtimeVerified": false,
+    "checks": [
+      "old005-refused-without-overwrite",
+      "all old005 aliases retained on new install refusal",
+      "changed-old005-removal-refused",
+      "old005 guard preflights before any deletion",
+      "old005-exact-removal",
+      "old005 exact aliases removed for upgrade",
+      "verify-no-writes",
+      "verify wrote no aliases",
+      "missing-dependency-refused",
+      "missing dependency before writes",
+      "changed-dependency-refused",
+      "changed dependency before writes",
+      "wrong-source-refused",
+      "source failure preflight before writes",
+      "wrong-plan-refused",
+      "plan failure preflight before writes",
+      "wrong-dll-refused",
+      "DLL failure preflight before writes",
+      "unknown-alias-refused",
+      "unknown alias prevents other installs",
+      "unknown alias retained",
+      "install",
+      "PowerShell equals Node cof_campaign_story3",
+      "PowerShell equals Node s3_nightmare",
+      "PowerShell equals Node s3_start",
+      "old005-remover-refuses-build007",
+      "old005 remover preserves every updated alias",
+      "repeat-install",
+      "changed-rollback-refused",
+      "rollback guard before any deletions",
+      "remove",
+      "all known aliases removed",
+      "unrelated baseline alias retained",
+      "RC2 dependency retained s2_apartment1_e7",
+      "RC2 dependency retained s2_start2",
+      "RC2 dependency retained s2_apartment1_e3",
+      "RC2 dependency retained s2_nightmare_e1",
+      "native DLL unchanged",
+      "original retained c_intro",
+      "original retained c_nightmare",
+      "original retained c_start"
+    ],
+    "passed": 41
+  },
+  "launcher": {
+    "launched": false,
+    "showCommand": "PASS",
+    "deadlineSettingBeforeMap": "+mp_footsteps 1",
+    "parser": "PASS"
+  },
+  "resources": {
+    "status": "Prior actual Steam audit retained; build007 adds no media/item references",
+    "missing": [],
+    "references": 196
+  },
+  "productionPreflight": {
+    "status": "BLOCKED",
+    "reason": "Required RC2 dependency missing or changed; guard retained",
+    "gameWrites": false,
+    "firstDependency": "s2_apartment1_e7",
+    "log": "work/rc3-resume-001/steam-preflight-007.log"
+  },
+  "nativeEvidence": {
+    "cvarString": "101CD9DC mp_footsteps",
+    "count": "game_zone_player incount sends USE_SET synchronously100BB536",
+    "initialization": "10121083..101210D3",
+    "zoneBranch": "nonzero origin selects Intersects100BB4B5",
+    "caveat": "Static pinned-DLL evidence; observed RC2 failure cause not established",
+    "threshold": ">1 enables optional deadline; <=1 disables",
+    "forcedDeadline": "100C9DAD..100C9EBF"
+  },
+  "preservation": {
+    "rc2ModelRecords": "Retained prefix; intro appends one64-byte metadata record",
+    "nightmareAndWake": "Byte-identical to005",
+    "originalGeometry": "Retained",
+    "rc2Package": "Unchanged copy",
+    "oldRC3Package": "Preserved in previous workspace"
+  },
+  "runtime": {
+    "userConfirmedRC3Tested": false,
+    "lateJoinRecovery": "BLOCKED",
+    "naturalTransitionObserved": false,
+    "soloReadyRecovery": "Restart lobby; both join before either readies",
+    "hangCause": "NOT ESTABLISHED",
+    "gameplayVerified": false,
+    "directDestinationObserved": false
+  },
+  "bundleArchive": {
+    "file": "outputs/rc3-two-client-test.zip",
+    "bytes": 469322,
+    "sha256": "6799c34cc6a79d196a1fcb94372bc1a72e03e4a05482b8dc7497e4e172cd3d59",
+    "entries": 229,
+    "allEntriesMatch": true,
+    "unchangedRC2ArchiveFiles": 209,
+    "powerShellParsedFiles": 7,
+    "manifest": [
+      {
+        "sha256": "9a1ae3f004053e2960fad9ecddecd1d005f85f03a9f62066e62360a4f4b239a1",
+        "path": "rc2/CAMPAIGN_ROUTES.md",
+        "bytes": 23985
+      },
+      {
+        "sha256": "540eebc8e3e02194272efc49e18cfdb99e1d72342f018735458bd92be6af0495",
+        "path": "rc2/campaign-routes.json",
+        "bytes": 2048016
+      },
+      {
+        "sha256": "4c0d3e7ca8d499676142159718a0c93bbc5afb261318dda94577ea0aacc0734d",
+        "path": "rc2/campaign-summary.json",
+        "bytes": 2864
+      },
+      {
+        "sha256": "1719e444c80fe93bd2e50d9aec3efb48809e7627fda5d722ed3594e6e13d9090",
+        "path": "rc2/collect-story-log.ps1",
+        "bytes": 1139
+      },
+      {
+        "sha256": "cba55df70d3de3c15d09b53416ffc5088b120912a16b18300bac5287f354c814",
+        "path": "rc2/COMPATIBILITY_MATRIX.md",
+        "bytes": 4742
+      },
+      {
+        "sha256": "03ee150dfe28c62ae3fb0645ca01467c521d0167c38e8487ba977869e4709016",
+        "path": "rc2/Host Coop Game.cmd",
+        "bytes": 149
+      },
+      {
+        "sha256": "388d95a76d6888163269085af75aa9bd188a0c7e20a5cc56c90934aa20c1e140",
+        "path": "rc2/host-story-coop.ps1",
+        "bytes": 1088
+      },
+      {
+        "sha256": "bc026574dbed1500f5fa0dd8e6966fb56e002e1b3b9c467a99a0daa452003250",
+        "path": "rc2/install-story-package.ps1",
+        "bytes": 11698
+      },
+      {
+        "sha256": "4b676739af199d49a49b7771862bd6ae96f25b1c275ce20b1b1c5fe4f9d53c08",
+        "path": "rc2/install.cmd",
+        "bytes": 155
+      },
+      {
+        "sha256": "cf0756f009d64c9c352d98912a67a97b39cd93217c729189e0b2353e6f21b1a5",
+        "path": "rc2/README.md",
+        "bytes": 3946
+      },
+      {
+        "sha256": "30e12312e6b778389e02abe026d9f47d2dc2f5a70becf940fcc98509fa0fca9d",
+        "path": "rc2/release.json",
+        "bytes": 87920
+      },
+      {
+        "sha256": "a61ff8a446bb0bbdfa9a42327e76ef860e0e0f3a0b5ee1297318b4efbbf068d8",
+        "path": "rc2/remove.cmd",
+        "bytes": 163
+      },
+      {
+        "sha256": "1067bacfc89997237538ed9b314eb2e244c9838312a92f125932e8b2f9b000a0",
+        "path": "rc2/TESTING.md",
+        "bytes": 6548
+      },
+      {
+        "sha256": "4fcdbf50feb919276abf5aff0f195d9d9d03399f4d55e433b2fc6b3684ee9493",
+        "path": "rc2/VERIFICATION.json",
+        "bytes": 613
+      },
+      {
+        "sha256": "b38a11e5cf320f2eef9b0037bcd5d8254343078d408a3c22a7b12d8466208b78",
+        "path": "rc2/plans/cof_campaign_story2.json",
+        "bytes": 5243
+      },
+      {
+        "sha256": "0dd60bbc6f92f1dbe82e8f1fd925dab23a87bcfe9456cc709d1cc74cdc7dc43e",
+        "path": "rc2/plans/s2_apartment1_e0.json",
+        "bytes": 31119
+      },
+      {
+        "sha256": "cffcd826aba5bbfe8201c32f64b8ffc7710c8f0382fb9bf36dbc244d0527894e",
+        "path": "rc2/plans/s2_apartment1_e1.json",
+        "bytes": 31123
+      },
+      {
+        "sha256": "c5d13a7ad0e54f462b517ee5affbbfbe70c724c209679fb320eed4946c49e7a3",
+        "path": "rc2/plans/s2_apartment1_e2.json",
+        "bytes": 31119
+      },
+      {
+        "sha256": "ccfe08044f1f07e96d9a6f8590241c5d51512e89a6722dd8b6835db45754cdaf",
+        "path": "rc2/plans/s2_apartment1_e3.json",
+        "bytes": 30743
+      },
+      {
+        "sha256": "2a4c0797709deacb4244bca64db9d3db79ed98ec516096a724d17c2ffa840864",
+        "path": "rc2/plans/s2_apartment1_e4.json",
+        "bytes": 31119
+      },
+      {
+        "sha256": "9cdd17deff3eb46eb25d3f48cc03ed0af5fd8cc4d933dcd37e66bb9175fa495c",
+        "path": "rc2/plans/s2_apartment1_e5.json",
+        "bytes": 30743
+      },
+      {
+        "sha256": "e3817f8d0375ae6e3b4597c52d7949fc30338a6988f0d8fdf8cc17210c57c73a",
+        "path": "rc2/plans/s2_apartment1_e6.json",
+        "bytes": 31114
+      },
+      {
+        "sha256": "e964e763d7db36aac083cf9e2364941276e1c0a73f672f58a97a4ba3edf164e3",
+        "path": "rc2/plans/s2_apartment1_e7.json",
+        "bytes": 31114
+      },
+      {
+        "sha256": "897796a331026b39b4c3550c2b5dcd4419403cb6d0b4c69ab6c7b239ad03ef8a",
+        "path": "rc2/plans/s2_apartment2_e0.json",
+        "bytes": 4787
+      },
+      {
+        "sha256": "0f85dddbfa38cce21dd9078acc03c510c48709f08a22151b3da95b969543dbc3",
+        "path": "rc2/plans/s2_apartment2_e1.json",
+        "bytes": 4883
+      },
+      {
+        "sha256": "1b986cdf52ad63d08ae5c2df0c2b4e93fee039106ff5a87621d3b8426c83175c",
+        "path": "rc2/plans/s2_apartment2_e2.json",
+        "bytes": 4879
+      },
+      {
+        "sha256": "59b96328f60922d6cb3e215d9129be616b5a6062c6acdb392c7d82e7156ae8af",
+        "path": "rc2/plans/s2_apartment2_e3.json",
+        "bytes": 4891
+      },
+      {
+        "sha256": "6af9eb036fd15edf364734dba092c7b5145fad2b66e5e2ff584795d5c67ff8b1",
+        "path": "rc2/plans/s2_apartment3_e0.json",
+        "bytes": 26642
+      },
+      {
+        "sha256": "d45b2901951b833a7dc6d60c9672836618518c7444c79a2790e6b5d40dd06339",
+        "path": "rc2/plans/s2_apartment3_e1.json",
+        "bytes": 26654
+      },
+      {
+        "sha256": "ffc16224293cf10bb1cf7542a982f0b82627a279ace031ecac06bed6e6c2b554",
+        "path": "rc2/plans/s2_apartment3_e2.json",
+        "bytes": 26650
+      },
+      {
+        "sha256": "6531e3b89edd34e957f2274070f77fc675d4507c28e2ec36a727c460c5bf990f",
+        "path": "rc2/plans/s2_apartment3_e3.json",
+        "bytes": 26650
+      },
+      {
+        "sha256": "e9133fd607cfc45b81f8ba181a063af55131515f386b259d2640c1192a2cedf1",
+        "path": "rc2/plans/s2_apartment3_e4.json",
+        "bytes": 26274
+      },
+      {
+        "sha256": "232cb1b883b6c75c7141a8930c7bb1d2370be71dda8620a8e55e7c1a35ac57da",
+        "path": "rc2/plans/s2_apartment3sick_e0.json",
+        "bytes": 11800
+      },
+      {
+        "sha256": "73afc94cb7fdb52cd744358fe604695130200094f514e4bb315fa7c2e02c420d",
+        "path": "rc2/plans/s2_apartment3sick_e1.json",
+        "bytes": 12180
+      },
+      {
+        "sha256": "de6e22c0d66f1d59efd00903ef82ee6546091381b1e37f9897d3efc54403dc75",
+        "path": "rc2/plans/s2_apartment3sick_e2.json",
+        "bytes": 12176
+      },
+      {
+        "sha256": "7f67be8ead5a5735d2a4bf524ec771dadaeba43bc262872518e3b2f635ebea6e",
+        "path": "rc2/plans/s2_apartment3sick_e3.json",
+        "bytes": 12176
+      },
+      {
+        "sha256": "1ef196eb497bc26e14c49b66e102bb48b7ce092615a29ca677141184656b7d38",
+        "path": "rc2/plans/s2_apartment3sick_e4.json",
+        "bytes": 12176
+      },
+      {
+        "sha256": "244a5a3feb2f288663daeae3435be50b03c0ef88f7f6c543fc1440077a53a265",
+        "path": "rc2/plans/s2_apartment4_e0.json",
+        "bytes": 21346
+      },
+      {
+        "sha256": "7425efa052576f38db4fa0cfdb20622624bf19ce94b193a89184e81fed7ddd6b",
+        "path": "rc2/plans/s2_apartment4_e1.json",
+        "bytes": 21342
+      },
+      {
+        "sha256": "24b37c80b91764297e60da76421622ec518bd3f8551d1b218018770794edb423",
+        "path": "rc2/plans/s2_apartment4_e2.json",
+        "bytes": 21354
+      },
+      {
+        "sha256": "0c4b7ac32941cbbce93935ddb963cdd84b499ee086e2830d2430081818420b74",
+        "path": "rc2/plans/s2_apartment4sick_e0.json",
+        "bytes": 3348
+      },
+      {
+        "sha256": "b0f0af1a624e426cf6adf6f553b9ba6be73875c82a479ea62ca95646596ea8bf",
+        "path": "rc2/plans/s2_apartment4sick_e1.json",
+        "bytes": 3344
+      },
+      {
+        "sha256": "73c1cb2eef106f71f1daddcb06fae8eea474b36a9fa081d4c5937d2afb56c1de",
+        "path": "rc2/plans/s2_apartment4sick_e2.json",
+        "bytes": 3356
+      },
+      {
+        "sha256": "e3ac0f0de6effb06dd15563527ed77ba754a82757710dc19a3a3319a4b844122",
+        "path": "rc2/plans/s2_apartment5_e0.json",
+        "bytes": 4334
+      },
+      {
+        "sha256": "fed6992a6c6012fabf4f78037ebb52ea703967adf82bd486f2e46c42d3681dea",
+        "path": "rc2/plans/s2_apartment5_e1.json",
+        "bytes": 4416
+      },
+      {
+        "sha256": "c6d9a7b748fd0188ccafacef50fcbc691c8d25d498594f43bf3762f2ceaa8a33",
+        "path": "rc2/plans/s2_apartmentsick_e0.json",
+        "bytes": 5098
+      },
+      {
+        "sha256": "eac40e05f24c85134d41b637784107ff423782c18950b405db173d5df36e60f1",
+        "path": "rc2/plans/s2_apartmentsick_e1.json",
+        "bytes": 5098
+      },
+      {
+        "sha256": "6353a97feec765f586a4042aaf53434513749ee0f9a073c273ba3449a1924947",
+        "path": "rc2/plans/s2_asylum1_e0.json",
+        "bytes": 14718
+      },
+      {
+        "sha256": "5344071b916536bada29849fb06662c1830c1feecee4524d67b088d175dee512",
+        "path": "rc2/plans/s2_asylum1_e1.json",
+        "bytes": 14718
+      },
+      {
+        "sha256": "1b35e2fb477357cdfbc8e3ee17885fb8c2f00be8aa74d12d7c16f843eeb6ef37",
+        "path": "rc2/plans/s2_asylum1_e2.json",
+        "bytes": 14730
+      },
+      {
+        "sha256": "e14094bc9107809fcddb9602126a1e846015a4a1cda33c3a83324318af37e2b4",
+        "path": "rc2/plans/s2_asylum1dark_e0.json",
+        "bytes": 5226
+      },
+      {
+        "sha256": "bee0c9fb250fd73c6c9897053c88139169562d76b1751c61dbee45f72cadd916",
+        "path": "rc2/plans/s2_asylum1dark_e1.json",
+        "bytes": 5232
+      },
+      {
+        "sha256": "fc115b499812e7751421871fc2f6a7dad44fa4e46a8a5fea069e2cd5fd4309f2",
+        "path": "rc2/plans/s2_asylum1day_e0.json",
+        "bytes": 8243
+      },
+      {
+        "sha256": "af2742f5c971a9e2006e9f33f3a0a16df51bba541842fc0f7ad0833fbd569b0a",
+        "path": "rc2/plans/s2_asylum1day_e1.json",
+        "bytes": 8243
+      },
+      {
+        "sha256": "7bc911973f8e0c5fe6a1c0111930b8f5eddd12f0e92fbce1cd43d37668ef5b19",
+        "path": "rc2/plans/s2_asylum2_e0.json",
+        "bytes": 11756
+      },
+      {
+        "sha256": "11c2229ac1b9a131f1dad1ef56dcfff757e326350af9c8f3470b9ae3485a8aba",
+        "path": "rc2/plans/s2_asylum2_e1.json",
+        "bytes": 11764
+      },
+      {
+        "sha256": "f58c883d066ac34389c7cf7e1c044de875e4b56f13791880a31fa0fba8c67dc3",
+        "path": "rc2/plans/s2_asylum2dark_e0.json",
+        "bytes": 5843
+      },
+      {
+        "sha256": "c0189d1720f083a695d911c596f92326440a26f85a437854c2c8422e42e112d8",
+        "path": "rc2/plans/s2_asylum2dark_e1.json",
+        "bytes": 5847
+      },
+      {
+        "sha256": "7e97adc6afc612ef5c0995d53f46b138bd48a302f22d231f50f92621391153cc",
+        "path": "rc2/plans/s2_asylumb_e0.json",
+        "bytes": 5058
+      },
+      {
+        "sha256": "df82cee9ce007def73075d4486fa3e0451628c7c43d74ad9c5ff49ebb893574f",
+        "path": "rc2/plans/s2_asylumb_e1.json",
+        "bytes": 5062
+      },
+      {
+        "sha256": "b3f80958b857e6b0333eb0021e531dbf9cb8ee1b1ba6c01117777836e958fd4a",
+        "path": "rc2/plans/s2_attic_e0.json",
+        "bytes": 6283
+      },
+      {
+        "sha256": "dabfb61f88aff9c34a2b6b98d46b3a4f8c823e8dc83890625e9360b6e67fcf01",
+        "path": "rc2/plans/s2_attic_e1.json",
+        "bytes": 6283
+      },
+      {
+        "sha256": "a8228a841edd0321c0a124483a25519cd1afb3e3f69213bfb6e419db0fbca35c",
+        "path": "rc2/plans/s2_avlopp_e0.json",
+        "bytes": 3071
+      },
+      {
+        "sha256": "3d734c271bee3b525a1e3aac03d8da749623d22e9dbe56bd7d77e27085ed0e24",
+        "path": "rc2/plans/s2_avlopp_e1.json",
+        "bytes": 3255
+      },
+      {
+        "sha256": "c57f1f4187407638ddd330af97e562cb9d067df57ff6e2b32c0713eb0a262f09",
+        "path": "rc2/plans/s2_basement_e0.json",
+        "bytes": 29330
+      },
+      {
+        "sha256": "ece4d44865d1a9823d6010a65fde633cf9b7fa60f8ee148751b0afac73a82e04",
+        "path": "rc2/plans/s2_basement_e1.json",
+        "bytes": 29704
+      },
+      {
+        "sha256": "02eb7b22138b47e624e6a8a8f9b9ad3a7f9cd6c7ad58f737bab893f7a45ec576",
+        "path": "rc2/plans/s2_bridge_e0.json",
+        "bytes": 4948
+      },
+      {
+        "sha256": "ca5faa1971cd730cb046d507470d637853ccf1b9d9c53e8cf9caf94708ad6857",
+        "path": "rc2/plans/s2_bridge_e1.json",
+        "bytes": 4952
+      },
+      {
+        "sha256": "b55aef16fd3fbf6f2fb6e5a204b6559e32485da6ea95451d74a33ae3e334f96c",
+        "path": "rc2/plans/s2_broscene_e0.json",
+        "bytes": 2875
+      },
+      {
+        "sha256": "7d1ead68e5fe3f15ac2177259746241e88178a18752fac56fc807e6966736f15",
+        "path": "rc2/plans/s2_broscene_e1.json",
+        "bytes": 2883
+      },
+      {
+        "sha256": "a61e6b278f2718f5178e714d0195ab40f681b5a85713fc98fd9c6a2a125a7506",
+        "path": "rc2/plans/s2_buscity_e0.json",
+        "bytes": 12133
+      },
+      {
+        "sha256": "93891fc22120143333112bfddf4bb91c98ad395148e22b76c43520b4567d4b06",
+        "path": "rc2/plans/s2_buscity_e1.json",
+        "bytes": 11937
+      },
+      {
+        "sha256": "06d140d75ba8fab276813464866f5d9725c9ec886ee294f1999e03a0a2a2e2f9",
+        "path": "rc2/plans/s2_buscity_e2.json",
+        "bytes": 12119
+      },
+      {
+        "sha256": "e49af7a7ded23f0417f17f9ac0a983f5f3678dafc5bb72506927aa28328adfaf",
+        "path": "rc2/plans/s2_buscity2_e0.json",
+        "bytes": 2667
+      },
+      {
+        "sha256": "6650bc6b4de0040b8b7c4e713ab017429e6673538941c836538e4af85f573728",
+        "path": "rc2/plans/s2_buscity2_e1.json",
+        "bytes": 2659
+      },
+      {
+        "sha256": "def28915870f1d5a02d8981d0f5765cc81e95a2dd73365a1fd2c8d106bdcb1da",
+        "path": "rc2/plans/s2_buscity2_e2.json",
+        "bytes": 2659
+      },
+      {
+        "sha256": "e4e43eadb3c0f8f74efd303bc72c581fbc9488046a3c66cf9721f52b2138e2b5",
+        "path": "rc2/plans/s2_city_e0.json",
+        "bytes": 11620
+      },
+      {
+        "sha256": "07f982d5d947f7bb69e1bcd4e8c2e84f9c3b67d32cb96f54d247148774d13816",
+        "path": "rc2/plans/s2_city_e1.json",
+        "bytes": 11240
+      },
+      {
+        "sha256": "be86cf0b32534001c96b2928e794967457ce85a41f6fcb119646589b8c3c8a01",
+        "path": "rc2/plans/s2_city_e2.json",
+        "bytes": 11428
+      },
+      {
+        "sha256": "e98cb8fbd5417d80e8cb2fe60b9b81a3e4b0667d4bdc3732dabded058e7b38fe",
+        "path": "rc2/plans/s2_city_e3.json",
+        "bytes": 11616
+      },
+      {
+        "sha256": "1016c045e1b0e92ebb5c5d21519c40e50c5558db72383337ee8c27212351e3c7",
+        "path": "rc2/plans/s2_city2_e0.json",
+        "bytes": 27395
+      },
+      {
+        "sha256": "94b6e67a6dde843a9765391888b07bf6174bedd4542760ddcb00d566e4376769",
+        "path": "rc2/plans/s2_city2_e1.json",
+        "bytes": 27407
+      },
+      {
+        "sha256": "443187141d20c60c2ef18598490575838cae29a603577c5fcbccab74105b02de",
+        "path": "rc2/plans/s2_college1_e0.json",
+        "bytes": 10382
+      },
+      {
+        "sha256": "cc9e17fc53e8b74e0054c8255bf6ff3f83556b1e293ef8f925b81c90c8d66823",
+        "path": "rc2/plans/s2_college1_e1.json",
+        "bytes": 10576
+      },
+      {
+        "sha256": "1e373235c130a9dad5f2c80696cd183a740aac7c46c8314a01195af8c4841ecc",
+        "path": "rc2/plans/s2_college1dark_e0.json",
+        "bytes": 6219
+      },
+      {
+        "sha256": "04bf512f72c022fb14346cfce4cd5bad0bbecca0a08bc101df6616d207698050",
+        "path": "rc2/plans/s2_college1dark_e1.json",
+        "bytes": 6017
+      },
+      {
+        "sha256": "97dfd6e2195b9358bebd0bf24043cb9dd75e5ce7c6e6fc460ab8d5ed4f3a6b2f",
+        "path": "rc2/plans/s2_college1dark_e2.json",
+        "bytes": 6215
+      },
+      {
+        "sha256": "478f665258b1a994d98e272a95ded51bb46e8a091cfc30ac2de1688f19e08d3b",
+        "path": "rc2/plans/s2_college2_e0.json",
+        "bytes": 974
+      },
+      {
+        "sha256": "87fb537895c363a7d390d6a4d0cbfca1bbfd1c5a4b21c2eb1b9039e6876067a9",
+        "path": "rc2/plans/s2_college2_e1.json",
+        "bytes": 970
+      },
+      {
+        "sha256": "5980a665d51ca262d7666c26cd4047daa07067cdc3a7b47af40979a1af9fd4ad",
+        "path": "rc2/plans/s2_down.json",
+        "bytes": 1367
+      },
+      {
+        "sha256": "4d5274c05fd242c131aeaf9c3500fec1485147efd398d68cb6d4f2c94741c47f",
+        "path": "rc2/plans/s2_ending1_e0.json",
+        "bytes": 1817
+      },
+      {
+        "sha256": "c439ebdea51b33f558f246ee2da83e177c8d8acf8c6315b21912397c4892abc2",
+        "path": "rc2/plans/s2_ending1_e1.json",
+        "bytes": 1817
+      },
+      {
+        "sha256": "b331ae0890bfa440d0ba178fd133a6809e6f33e7e477bd1c4133c04e013efdf2",
+        "path": "rc2/plans/s2_ending1b_e0.json",
+        "bytes": 1798
+      },
+      {
+        "sha256": "e6d8b55c057e681e3a0a0435c55572e5a9cebce94a94206888652f8bd7f43eb8",
+        "path": "rc2/plans/s2_ending1b_e1.json",
+        "bytes": 1782
+      },
+      {
+        "sha256": "0b9962aeffb33cc528ae747d01acce48d755cd48c22badc8a3b9cf0fd16a1934",
+        "path": "rc2/plans/s2_ending1c.json",
+        "bytes": 3272
+      },
+      {
+        "sha256": "20d0ca8ffdcfb11f53ac1e17431d32f980b3607c216a726b2b8a469ddf4402bd",
+        "path": "rc2/plans/s2_ending2_e0.json",
+        "bytes": 1817
+      },
+      {
+        "sha256": "ba2e091be6563462c486aeaad4c85d9d2af483e50dc087357abd12c16ca6a819",
+        "path": "rc2/plans/s2_ending2_e1.json",
+        "bytes": 1817
+      },
+      {
+        "sha256": "e8872abc6a71396461f5cfc06474e2d2a77ee5799d584bc8712ab014a70201c8",
+        "path": "rc2/plans/s2_ending2b_e0.json",
+        "bytes": 1798
+      },
+      {
+        "sha256": "80048611936ee5975950dedf70078661d84ded51e93c76f02e13e297a986ea64",
+        "path": "rc2/plans/s2_ending2b_e1.json",
+        "bytes": 1782
+      },
+      {
+        "sha256": "8a303aeeb75857f7468e748ace410a5b1be0f8364151a4213dd92759c1e549b5",
+        "path": "rc2/plans/s2_ending2c.json",
+        "bytes": 3246
+      },
+      {
+        "sha256": "42bb900cc6831aa81f731213324b65c6c425fd369762444062d6668cab952236",
+        "path": "rc2/plans/s2_ending3_e0.json",
+        "bytes": 1817
+      },
+      {
+        "sha256": "cc5556bf70321c45642ef449e1fa608524aa1a3dbffe3cb176626403d2f652af",
+        "path": "rc2/plans/s2_ending3_e1.json",
+        "bytes": 1817
+      },
+      {
+        "sha256": "ba1b13776f3da9b09299c8b23fc5829285e80f6c0ccaffa9fed5722969f4235c",
+        "path": "rc2/plans/s2_ending3b_e0.json",
+        "bytes": 1798
+      },
+      {
+        "sha256": "92e8657ec577aa8299790e75b79989da4ce52772f4af22c7105d028663b11ddf",
+        "path": "rc2/plans/s2_ending3b_e1.json",
+        "bytes": 1782
+      },
+      {
+        "sha256": "a0a48255cf9509df571de5790e61427e116682df5661897b5e8da1ebd6572499",
+        "path": "rc2/plans/s2_ending3c.json",
+        "bytes": 3247
+      },
+      {
+        "sha256": "71b6c55cc280c31cbb187130aa57bfe923e3d99c7c3cc4244531b947692a1a3c",
+        "path": "rc2/plans/s2_ending4_e0.json",
+        "bytes": 1814
+      },
+      {
+        "sha256": "78178e87b16c04e108909b383cae27a8b295755025896b4893696277b687a086",
+        "path": "rc2/plans/s2_ending4_e1.json",
+        "bytes": 1814
+      },
+      {
+        "sha256": "db6eb03b71d78a458a24750f992485adda7cf9fe0e3d0845c6473b8b5c99e2ff",
+        "path": "rc2/plans/s2_ending4b.json",
+        "bytes": 3202
+      },
+      {
+        "sha256": "1d14b8bd9da1101caa346e0d7124ef5f7778b6a8f0935824441df531f01c0b3f",
+        "path": "rc2/plans/s2_ending5_e0.json",
+        "bytes": 3120
+      },
+      {
+        "sha256": "32b203912dae96732feb37a7db25efd2ad2d840ca869607ed9a5225a2bf8d76f",
+        "path": "rc2/plans/s2_ending5_e1.json",
+        "bytes": 3120
+      },
+      {
+        "sha256": "1b005dc355a657753913c262f390b129e61a73f28a74235d8cf8ea1d813cc274",
+        "path": "rc2/plans/s2_ending5b_e0.json",
+        "bytes": 2067
+      },
+      {
+        "sha256": "2e26673fb22ba67a0584f1c6dbbbbf0d689624124226d2bf902b89a2ccba5946",
+        "path": "rc2/plans/s2_ending5b_e1.json",
+        "bytes": 2067
+      },
+      {
+        "sha256": "e87c7ee52b0550fd4ad902e0fff41d1d8dc5abb1ad9f3f15559cf7339e6fa438",
+        "path": "rc2/plans/s2_ending5c.json",
+        "bytes": 5515
+      },
+      {
+        "sha256": "e0fee006c4df572bd27826feb2933080e00d4db1729efdefd081b1f18b17b765",
+        "path": "rc2/plans/s2_forest1_e0.json",
+        "bytes": 4453
+      },
+      {
+        "sha256": "bfd53c95223b31774ff43a172aafa0313397770a031f00a4a711f3847a4f887f",
+        "path": "rc2/plans/s2_forest1_e1.json",
+        "bytes": 4461
+      },
+      {
+        "sha256": "2661a2bf2957ae4e9036b6bc265f42da131fceda0ab7fa0973d7bcf8b01adbe9",
+        "path": "rc2/plans/s2_forest2_e0.json",
+        "bytes": 3470
+      },
+      {
+        "sha256": "f76b393056c20d0cbfef4cad27952450a456393847ce96bf74d2935b497fc9cc",
+        "path": "rc2/plans/s2_forest2_e1.json",
+        "bytes": 3468
+      },
+      {
+        "sha256": "4d471de03280dbb80955857ba0d4a02f70bd28a2ed3ad8f7cd1c173779fc1c96",
+        "path": "rc2/plans/s2_forest3_e0.json",
+        "bytes": 2806
+      },
+      {
+        "sha256": "18fe244529fea5500de68a1d2af28f8cad2046494327de6185f711e2a2b99cc1",
+        "path": "rc2/plans/s2_forest3_e1.json",
+        "bytes": 2806
+      },
+      {
+        "sha256": "97e91367a1ac3466bd49bb43fd8b328e6b2b499b768fefa4863b232a93d48884",
+        "path": "rc2/plans/s2_forest4_e0.json",
+        "bytes": 5422
+      },
+      {
+        "sha256": "8f56abb19e89b3ac486397bbfdec0693a2b3e2e50b52adde761ad9b78924a023",
+        "path": "rc2/plans/s2_forest4_e1.json",
+        "bytes": 5422
+      },
+      {
+        "sha256": "1ea7aa997189ef1c4e8f639c0c9b54b4ad100fff7a4b709e7a6146fbdbed5dfe",
+        "path": "rc2/plans/s2_forest5_e0.json",
+        "bytes": 3620
+      },
+      {
+        "sha256": "0588d4f8ece9e5b3259afe7bd37b9464fcaae222657e8bcb72f9cd4df29131b6",
+        "path": "rc2/plans/s2_forest5_e1.json",
+        "bytes": 3620
+      },
+      {
+        "sha256": "4a665037bbeae8d7c438cd262e8b9036228b418c43f3214fedf32445ca47461b",
+        "path": "rc2/plans/s2_forest6_e0.json",
+        "bytes": 7223
+      },
+      {
+        "sha256": "ec9e3443b3dca574e9d7d516cf88e1d3949ebdac6ad606f8f12125d9f9589df1",
+        "path": "rc2/plans/s2_forest6_e1.json",
+        "bytes": 7235
+      },
+      {
+        "sha256": "df273841c7a0713df1ee94ee7a37c0fc2604de39cd4e5e7289a0468d8ac92f32",
+        "path": "rc2/plans/s2_forest7_e0.json",
+        "bytes": 2307
+      },
+      {
+        "sha256": "8edf8e6c2b11e93127130e1a859c9e73eb342ebdce1f5aa5ee02689ed00715d6",
+        "path": "rc2/plans/s2_forest7_e1.json",
+        "bytes": 2315
+      },
+      {
+        "sha256": "4cebebc42e793c65138bf1b15f8ec600fbbb6d102ecdc78ede3fe72039c7a808",
+        "path": "rc2/plans/s2_forest7_e2.json",
+        "bytes": 2315
+      },
+      {
+        "sha256": "0b5ccc7d0d0b46709e728aafffad34f9067c2e59f938c5ac0f77850970fff61e",
+        "path": "rc2/plans/s2_forestday_e0.json",
+        "bytes": 3740
+      },
+      {
+        "sha256": "5ad0fa27e2ce99a99cc1f33b7f6a580831337503ca5d8eaa5d881d055a061ba7",
+        "path": "rc2/plans/s2_forestday_e1.json",
+        "bytes": 3758
+      },
+      {
+        "sha256": "3b4da72bbd5d877ae62185253cd2f7576009256e67ef6d28d957b22bedd1416f",
+        "path": "rc2/plans/s2_fsewer1_e0.json",
+        "bytes": 4910
+      },
+      {
+        "sha256": "87d0774b75efe8f56c218201179803835cadee50135007a2f143b5c354059e8f",
+        "path": "rc2/plans/s2_fsewer1_e1.json",
+        "bytes": 4914
+      },
+      {
+        "sha256": "a9c01240c07dbf29b3ea683f0a8bf6d30c78886bb0cb7fb273cc38fcc2ebb8b3",
+        "path": "rc2/plans/s2_hamn_e0.json",
+        "bytes": 4621
+      },
+      {
+        "sha256": "ce7e5ca23908d5765dab8a6bf4429bb5152581d1bc71dd7d4e98b0d4b911ff82",
+        "path": "rc2/plans/s2_hamn_e1.json",
+        "bytes": 4605
+      },
+      {
+        "sha256": "2cc9184daa20dbc88367c2e8d269ad23a0eee77b3eb9938a5189ea0268e8984d",
+        "path": "rc2/plans/s2_hamn2_e0.json",
+        "bytes": 3467
+      },
+      {
+        "sha256": "baa9c633cab9deaf814d3eb1f88e433638e78668d2ecf28af35d7ba4a6465f6e",
+        "path": "rc2/plans/s2_hamn2_e1.json",
+        "bytes": 3463
+      },
+      {
+        "sha256": "9a0da305b1027b784c7d40227eee99aab8f1cafe1c8928f7c4f8820e3c283878",
+        "path": "rc2/plans/s2_hamn3_e0.json",
+        "bytes": 2237
+      },
+      {
+        "sha256": "8837864674bf09d86158037f6167c7e9a56255a656978a0dddb23e176aea0766",
+        "path": "rc2/plans/s2_hamn3_e1.json",
+        "bytes": 2621
+      },
+      {
+        "sha256": "fe8ded1fb036675311bfff4cafc3333ea82849f3ff3ba22f161f262eeddaeeb6",
+        "path": "rc2/plans/s2_hamn3_e2.json",
+        "bytes": 2625
+      },
+      {
+        "sha256": "a7f67fe904e9129816ae174294f2425aa880ab188ed7b7c00d1d77f1a5ee71cc",
+        "path": "rc2/plans/s2_hamn3_e3.json",
+        "bytes": 2625
+      },
+      {
+        "sha256": "209390af7dfda286398b9864668b46a4a3c69ff892ac5d05b2685da82e7efbab",
+        "path": "rc2/plans/s2_lake_e0.json",
+        "bytes": 2422
+      },
+      {
+        "sha256": "00fa7aeb25e2776aadf217de363630007c04062dc745a9a7a0d1c59280ea6782",
+        "path": "rc2/plans/s2_lake_e1.json",
+        "bytes": 2426
+      },
+      {
+        "sha256": "ca17391eda13e50e94e62e7821f0b6fa05947e398480ec39629fbca4d8cc647f",
+        "path": "rc2/plans/s2_nightmare_e0.json",
+        "bytes": 8957
+      },
+      {
+        "sha256": "d450a57055af9056227cc10d12c5cad91f02fe1b3bd9ea3c3f7095f31937e30a",
+        "path": "rc2/plans/s2_nightmare_e1.json",
+        "bytes": 8761
+      },
+      {
+        "sha256": "dc6ca15c5f9f3d7827c9472f255b5ff07fea607b95a12f3e2cea468807996a0a",
+        "path": "rc2/plans/s2_park_e0.json",
+        "bytes": 4262
+      },
+      {
+        "sha256": "4f47095dfaa49ff39e97eb5d5126f24cb71b863100ac11ac770c5b89c1066c14",
+        "path": "rc2/plans/s2_park_e1.json",
+        "bytes": 4266
+      },
+      {
+        "sha256": "f928b8e8d36e38e50109fad28d06e209dd0fe12808a38b456d3d6862dcfae1ef",
+        "path": "rc2/plans/s2_park2_e0.json",
+        "bytes": 14001
+      },
+      {
+        "sha256": "0f96643f23a9059db6a653b2cf520020ed97c5c511022ca8e856ad003dc88a24",
+        "path": "rc2/plans/s2_park2_e1.json",
+        "bytes": 14001
+      },
+      {
+        "sha256": "850e80bda9a4203c58caa6c4864a88553b3dd2bbf91691cef2d72f3d27f03bea",
+        "path": "rc2/plans/s2_park2_e2.json",
+        "bytes": 14013
+      },
+      {
+        "sha256": "5388121590468858dbd9844a922e55deab24a65ea02e69356cfbdfcfb050f866",
+        "path": "rc2/plans/s2_park3_e0.json",
+        "bytes": 6490
+      },
+      {
+        "sha256": "81b9e2ffd66143f24500d8647eda8c1012b1a0302d403ca4144cd3b0a80340f9",
+        "path": "rc2/plans/s2_park3_e1.json",
+        "bytes": 6490
+      },
+      {
+        "sha256": "94132ef662abae2f4c9f2506614e787d0be5ffde21c0b16450b48f762c060ec3",
+        "path": "rc2/plans/s2_park3_e2.json",
+        "bytes": 6494
+      },
+      {
+        "sha256": "4c7e41a8d89e2e719e4233123e589e1957f44e360ecc8eea5016e9da75f8a8f3",
+        "path": "rc2/plans/s2_park3_e3.json",
+        "bytes": 6502
+      },
+      {
+        "sha256": "3ff29dc177bcb5ff35159bea13ee9eeeaa901c20133ee6f125bec29b88af55ae",
+        "path": "rc2/plans/s2_roofs_e0.json",
+        "bytes": 18466
+      },
+      {
+        "sha256": "2de17f943c618272ca9b656efcb89508acfb6e3b42b27e81d31df4cbb6fef93d",
+        "path": "rc2/plans/s2_roofs_e1.json",
+        "bytes": 18834
+      },
+      {
+        "sha256": "990a2318fc2738cc025c5b9e4812d5e568f796f5066c2e8495485c96e2fb446b",
+        "path": "rc2/plans/s2_roofs2_e0.json",
+        "bytes": 3323
+      },
+      {
+        "sha256": "c117ed641cb25f4d47045416ad1d9eac2770b669b9ad7394460a371b0ec7e025",
+        "path": "rc2/plans/s2_roofs2_e1.json",
+        "bytes": 3035
+      },
+      {
+        "sha256": "76c0afac850f080954ac5fcf112b31900b209fc0de990dbf03031eb82e822dba",
+        "path": "rc2/plans/s2_sewer_e0.json",
+        "bytes": 5931
+      },
+      {
+        "sha256": "d04fd02f48756080e85d22acd4d62af25e20042bd61c85c7059e21d7596b5d6e",
+        "path": "rc2/plans/s2_sewer_e1.json",
+        "bytes": 5907
+      },
+      {
+        "sha256": "e27321cf0f5b234c3fa4b752f12b9a98b6671e97e0548e2b1a74bffd25c05a3e",
+        "path": "rc2/plans/s2_sewer2_e0.json",
+        "bytes": 15788
+      },
+      {
+        "sha256": "df903f9a0fcfed5e3fff281098ec288efb92e6a9fba0db2d3f9dc0e55bc3c4e6",
+        "path": "rc2/plans/s2_sewer2_e1.json",
+        "bytes": 15962
+      },
+      {
+        "sha256": "8797097fa4c19c6dbbb3f65c066a5b7d8f5fd87959601e20b1f14f88b6a6fdb7",
+        "path": "rc2/plans/s2_sewer3_e0.json",
+        "bytes": 17431
+      },
+      {
+        "sha256": "b8f7318d30838108b40196111833465cc83bbc30e107fc88355cd11bddd2d3b0",
+        "path": "rc2/plans/s2_sewer3_e1.json",
+        "bytes": 17423
+      },
+      {
+        "sha256": "bdcd24b34134d63fa35502a0ee606fbadcb76fb9fc0488556767ec6117134e64",
+        "path": "rc2/plans/s2_stad_e0.json",
+        "bytes": 2455
+      },
+      {
+        "sha256": "facbca190ba3ef4d93d7e28033d621e3ae620c54eb39c8ba80f9755cb852aa37",
+        "path": "rc2/plans/s2_stad_e1.json",
+        "bytes": 2457
+      },
+      {
+        "sha256": "cd7992da352f0b4d72935d89de248b3e646651b1a10f9ba41f795bcdf85598e7",
+        "path": "rc2/plans/s2_stad_e2.json",
+        "bytes": 2449
+      },
+      {
+        "sha256": "8a069943a3eb1272864bf8b150d6d36689690c9f98002d540e6f4f858e9a8424",
+        "path": "rc2/plans/s2_start_e0.json",
+        "bytes": 22243
+      },
+      {
+        "sha256": "b2673f8a66d41520ee45d3b4335fa65751361ae07a1325a30810eeb19b3e9c57",
+        "path": "rc2/plans/s2_start_e1.json",
+        "bytes": 22243
+      },
+      {
+        "sha256": "15f6469816b7c7d1fbd695110180f9921ca1e036ed8350de573640810648db21",
+        "path": "rc2/plans/s2_start_e2.json",
+        "bytes": 22138
+      },
+      {
+        "sha256": "d3eda72f05e9d2b6fcd9d566ab39bb4f50349492d14facd1826c41890555d89d",
+        "path": "rc2/plans/s2_start2.json",
+        "bytes": 18740
+      },
+      {
+        "sha256": "7c477be624884e3acddb4d517fb27ac1d6836a69fd923db995080e9ff6a56f9f",
+        "path": "rc2/plans/s2_subtunnel1_e0.json",
+        "bytes": 9698
+      },
+      {
+        "sha256": "3ba9f872a198d566ba1a9b5ccdf9d8a760de731f9924d1dc1a1f0aab3e073d33",
+        "path": "rc2/plans/s2_subtunnel1_e1.json",
+        "bytes": 9714
+      },
+      {
+        "sha256": "db66bdce4ac8c431967e7deca3f8c2993505d2c663b8d12b6e7bb78892e66f20",
+        "path": "rc2/plans/s2_subtunnel2_e0.json",
+        "bytes": 9863
+      },
+      {
+        "sha256": "5c3d3f88609c1058d6b8115d20fe7c2aa79c1d5fab1d5b52d1e168daeda8fca2",
+        "path": "rc2/plans/s2_subtunnel2_e1.json",
+        "bytes": 9847
+      },
+      {
+        "sha256": "d9e9a5e8feaa921cfea8dd986f10ad7ac3bbdf6e3319fff4c7b4ad73c4314c37",
+        "path": "rc2/plans/s2_subway1st1_e0.json",
+        "bytes": 11610
+      },
+      {
+        "sha256": "3dc5ae0306aa8aea18c784de98d6990aa81cfe7f8fc73ed072e2cd45ddb4f7f4",
+        "path": "rc2/plans/s2_subway1st1_e1.json",
+        "bytes": 11606
+      },
+      {
+        "sha256": "28ef2dae2ab56e08158c77b0f6295f92e48042c9027abc9a34b21df7ae1cb24a",
+        "path": "rc2/plans/s2_subway2st1_e0.json",
+        "bytes": 5622
+      },
+      {
+        "sha256": "ff59b1b29cb4c0432db26312c89bd7dd24ee1ac5da9100eb2bc96946723ac32e",
+        "path": "rc2/plans/s2_subway2st1_e1.json",
+        "bytes": 5614
+      },
+      {
+        "sha256": "5ecce7bddeb9b2d38b2e60a1b00c8ceb1f5a2a47efd22a9228b0d7afa30137b5",
+        "path": "rc2/plans/s2_subway2st1_e2.json",
+        "bytes": 5622
+      },
+      {
+        "sha256": "a8a09e801e4e36d9efee22587adbfac0a9d935b2eb6b71ba7038522f3310aa96",
+        "path": "rc2/plans/s2_subway2st1_e3.json",
+        "bytes": 5615
+      },
+      {
+        "sha256": "099acb4ef87773acad80222dce94bf01b3a6ed37daac95b5338170e75cad93a1",
+        "path": "rc2/plans/s2_subway2st1_e4.json",
+        "bytes": 5614
+      },
+      {
+        "sha256": "12f1b284a8a90587d842d9f2babd52a69126e573e8a26ee13d987a0b57aafcbc",
+        "path": "rc2/plans/s2_subway2st2_e0.json",
+        "bytes": 1696
+      },
+      {
+        "sha256": "0a721072678448ba99c5878e18dc33e14166c811c22d0c35fad432baeb942959",
+        "path": "rc2/plans/s2_subway2st2_e1.json",
+        "bytes": 1701
+      },
+      {
+        "sha256": "1e121a803ae3a9447caabdb7e34cba2771e67778a1eb41213a7bf3944e745383",
+        "path": "rc2/plans/s2_subway2st2_e2.json",
+        "bytes": 1694
+      },
+      {
+        "sha256": "38a88c4dd429eb4db1ce6958907d0dd9b0a90bf94adf1725a5455c6ab822cead",
+        "path": "rc2/plans/s2_subway2st2_e3.json",
+        "bytes": 1698
+      },
+      {
+        "sha256": "4a0186a030dee40d9f81057116c0f89fc71c85a826c29d5a7985ca01789af23f",
+        "path": "rc2/plans/s2_subway2st3_e0.json",
+        "bytes": 8247
+      },
+      {
+        "sha256": "b9c69103b479173c95fd099d87af11654b38b3da7204e7a61918d80933464826",
+        "path": "rc2/plans/s2_subway2st3_e1.json",
+        "bytes": 8248
+      },
+      {
+        "sha256": "6eb4315f0d896dd90a9d9cc74cf8d56a81a40460de607ee246f4fc2b1621e5ca",
+        "path": "rc2/plans/s2_subway2st3_e2.json",
+        "bytes": 8239
+      },
+      {
+        "sha256": "9afffd10acf5878af3bf3acc8f1da16b7bca17aac045e5e5cc7483c77008a4a8",
+        "path": "rc2/plans/s2_subway2st3_e3.json",
+        "bytes": 8250
+      },
+      {
+        "sha256": "e28ff06d8f057b08c4edccffdc1971033bccba18c26098c7a334e015813ff8a0",
+        "path": "rc2/plans/s2_subwaysick1_e0.json",
+        "bytes": 7571
+      },
+      {
+        "sha256": "d54bf0420c1066ec69bcf01b7b3add2fe7ae336aa6a1217cb5596580c4d28a82",
+        "path": "rc2/plans/s2_subwaysick1_e1.json",
+        "bytes": 7567
+      },
+      {
+        "sha256": "cc9a98e021212534aa7decb8d913fd173042950e0f6935352830b816a9bf8dfd",
+        "path": "rc2/plans/s2_subwaysick2_e0.json",
+        "bytes": 35501
+      },
+      {
+        "sha256": "8ce5b218b3adc480b2d023838ed788693bf97e6e3dc2faf8af4928a4b8597d6a",
+        "path": "rc2/plans/s2_subwaysick2_e1.json",
+        "bytes": 35505
+      },
+      {
+        "sha256": "dda9242ac4b8505aba7889988655ad084c598cc2b57ca56233ba8f451a4d1691",
+        "path": "rc2/plans/s2_trainride_e0.json",
+        "bytes": 9202
+      },
+      {
+        "sha256": "60e847e5571f5441e75c5c304ab8c17f405053e1ed223ea683a8063331636ea5",
+        "path": "rc2/plans/s2_trainride_e1.json",
+        "bytes": 9195
+      },
+      {
+        "sha256": "bf0abe5be30bed822efd74af92e3b086686f28edc5b1941224148d94ea07b5fd",
+        "path": "rc2/plans/s2_trainride_e2.json",
+        "bytes": 9191
+      },
+      {
+        "sha256": "40c58f77ce6921aab415511a30643b947a41e0ebe74db4aac1dec4a88756e74a",
+        "path": "rc2/plans/s2_trainride2.json",
+        "bytes": 5425
+      },
+      {
+        "sha256": "f63465bdadf6633816154df199fd3393535ced8082c8bb4e91b3b1b08c7317fb",
+        "path": "rc2/plans/s2_trainscene_e0.json",
+        "bytes": 3512
+      },
+      {
+        "sha256": "a9186f74b57c6c515c41e6ee14d43cf592cbf6f058f5e05d39cdf12f3726530f",
+        "path": "rc2/plans/s2_trainscene_e1.json",
+        "bytes": 3512
+      },
+      {
+        "sha256": "72ad4193d68088e4ae6f55c0f826fbb2e3d4647e36d1badd06ea75a182866641",
+        "path": "rc2/plans/s2_village1_e0.json",
+        "bytes": 4420
+      },
+      {
+        "sha256": "f598856d44a5d0150971e4a9823d8249a2a5595264f53fae1323a848b04ae080",
+        "path": "rc2/plans/s2_village1_e1.json",
+        "bytes": 4424
+      },
+      {
+        "sha256": "b97ab77f4a1e7acc08450bf5cd284ff72485b2fe37e559e221dc365061c7dba1",
+        "path": "rc2/plans/s2_village2_e0.json",
+        "bytes": 5328
+      },
+      {
+        "sha256": "ed1a77fafff66c5750c906ee76493d9154724fae2be29891c6ed5fee87241e4d",
+        "path": "rc2/plans/s2_village2_e1.json",
+        "bytes": 5320
+      },
+      {
+        "sha256": "398ecc68380d40d5484dd401dc298fbc9b3a86cddbace9cbc3495eeb8fd007e5",
+        "path": "rc2/plans/s2_village3_e0.json",
+        "bytes": 3467
+      },
+      {
+        "sha256": "ddd7bc2e113011421893ba3bb83caad0edfa27c9a556947bf992e6fa29ae68a9",
+        "path": "rc2/plans/s2_village3_e1.json",
+        "bytes": 3471
+      },
+      {
+        "sha256": "7d57f6ee8019e4bdde42673066ec1f83a69704ad5e63077c1953c5bd6d7dfef6",
+        "path": "rc2/plans/s2_village3_e2.json",
+        "bytes": 3467
+      },
+      {
+        "sha256": "755587e1f06d21857930b6e41bdf2b080d82d19cc6f1e6dbe9d937a7bed40a66",
+        "path": "rc2/plans/s2_village3_e3.json",
+        "bytes": 3471
+      },
+      {
+        "sha256": "750ca8963f4cc4b00768163819056db56edcb336af3383f4b6d5d1aa031c74eb",
+        "path": "rc2/plans/s2_village3_e4.json",
+        "bytes": 3471
+      },
+      {
+        "sha256": "903d70a9d36dc4b186d96eaa796458648a69d33e54a39f9c518a8bc5bf02fe31",
+        "path": "rc2/plans/s2_village3_e5.json",
+        "bytes": 3471
+      },
+      {
+        "sha256": "1719e444c80fe93bd2e50d9aec3efb48809e7627fda5d722ed3594e6e13d9090",
+        "path": "rc3/collect-story-log.ps1",
+        "bytes": 1139
+      },
+      {
+        "sha256": "b21a11ea0734f08a432eaa7cb592b6655af588d89412b82da92c4e6d789ecff4",
+        "path": "rc3/Host Coop Game.cmd",
+        "bytes": 174
+      },
+      {
+        "sha256": "9c5e11d2694785dc235d618b784742fc620b5ef5111e7135e5caa0a58f3dcc4b",
+        "path": "rc3/host-story-coop.ps1",
+        "bytes": 1416
+      },
+      {
+        "sha256": "f8ee036e364ba97ef608ae007bc8f8d547305ed2a5742c7e3fb63e0f52993881",
+        "path": "rc3/install-story-package.ps1",
+        "bytes": 12578
+      },
+      {
+        "sha256": "4b676739af199d49a49b7771862bd6ae96f25b1c275ce20b1b1c5fe4f9d53c08",
+        "path": "rc3/install.cmd",
+        "bytes": 155
+      },
+      {
+        "sha256": "a3acbf3c8ea93897b289c03b6b9f2ed641a20148985925d88d4644c79feb6181",
+        "path": "rc3/opening-report.json",
+        "bytes": 18723
+      },
+      {
+        "sha256": "c8ce792a9bdb698afb7725a67610899480d34c8e7afcf2d0821fb99523b687a1",
+        "path": "rc3/README.md",
+        "bytes": 10243
+      },
+      {
+        "sha256": "700ed5886ef339ebe3b2076d72e14acf751503c8d540c3e5dcfd88ac2ba8ca11",
+        "path": "rc3/release.json",
+        "bytes": 2068
+      },
+      {
+        "sha256": "832f91436159a0edc316b15258c178c710750658dbcace1a140591959885ab04",
+        "path": "rc3/remove-build005.cmd",
+        "bytes": 181
+      },
+      {
+        "sha256": "a61ff8a446bb0bbdfa9a42327e76ef860e0e0f3a0b5ee1297318b4efbbf068d8",
+        "path": "rc3/remove.cmd",
+        "bytes": 163
+      },
+      {
+        "sha256": "0d6b6040cd0ebd199d32af6eff9d8f2ab5fa5a8969aa091c164f8ffdefb33c35",
+        "path": "rc3/TESTING.md",
+        "bytes": 6670
+      },
+      {
+        "sha256": "a16bd1e3d5ebed683c1e571a3f79aef094223057062f8697611f886d7747b1e6",
+        "path": "rc3/VERIFICATION.json",
+        "bytes": 3803
+      },
+      {
+        "sha256": "f8ee036e364ba97ef608ae007bc8f8d547305ed2a5742c7e3fb63e0f52993881",
+        "path": "rc3/build005-rollback/install-story-package.ps1",
+        "bytes": 12578
+      },
+      {
+        "sha256": "4058d8fd6bf37f21b963874e64d5b02d9090cb938ac75460021a3d1b29532e7f",
+        "path": "rc3/build005-rollback/release.json",
+        "bytes": 2068
+      },
+      {
+        "sha256": "2797176a282a90c32d6f7bd8d60b8e6d1e4f483b69cfcd98b68d8673deeed797",
+        "path": "rc3/plans/cof_campaign_story3.json",
+        "bytes": 10430
+      },
+      {
+        "sha256": "d8ad05a54284563aa6dc4ad3856aee7340ed033aa8d8683eb61b23480e65bd67",
+        "path": "rc3/plans/s3_nightmare.json",
+        "bytes": 23915
+      },
+      {
+        "sha256": "217a29ae7a0b5ad8191b6be4fddd0fca4b039d2a1ac820a3fe98b11f0706ab81",
+        "path": "rc3/plans/s3_start.json",
+        "bytes": 30382
+      },
+      {
+        "sha256": "36e2a14c52b012b34975b20469e1cb407a455fd1beedc545ce004b65ed471817",
+        "path": "Install RC3.cmd",
+        "bytes": 472
+      },
+      {
+        "sha256": "0d6b6040cd0ebd199d32af6eff9d8f2ab5fa5a8969aa091c164f8ffdefb33c35",
+        "path": "START_HERE.md",
+        "bytes": 6670
+      },
+      {
+        "sha256": "a16bd1e3d5ebed683c1e571a3f79aef094223057062f8697611f886d7747b1e6",
+        "path": "VERIFICATION.json",
+        "bytes": 3803
+      }
+    ]
+  },
+  "previousArchives": {
+    "rc2Sha256": "eb1cddefe24dab11a262ea9d9ccda527d0e4938a0ff123dd94ea0c9541472fbf",
+    "rc3Build005Sha256": "e5075d89823c71ef2d6af70a8a1dfb72619c640acdb87ad5fcbfd484906ac0c5",
+    "bothUnchanged": true
+  }
+}

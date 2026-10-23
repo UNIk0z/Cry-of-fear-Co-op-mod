@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "operation": "append-native-coop-spawns",
+  "status": "EXPERIMENTAL_NOT_RUNTIME_TESTED",
+  "sourceMap": "c_start2.bsp",
+  "sourceSha256": "3933456e6c0e8a449ec17e7829c9d69a8880a1e414b54dd6c0cf2b361483157e",
+  "hypothesis": "Adding the native numbered cooperative spawn entities may initialize players differently from the story-only player start. This is not a confirmed visibility fix.",
+  "referenceMaps": ["c_cof_village2", "c_cof_city", "c_cof_bridge"],
+  "spawns": [
+    {"classname": "cof_coop_spawn1", "origin": [2428, -883, -728], "angles": [0, 90, 0]},
+    {"classname": "cof_coop_spawn2", "origin": [2428, -819, -728], "angles": [0, 90, 0]},
+    {"classname": "cof_coop_spawn3", "origin": [2492, -819, -728], "angles": [0, 90, 0]},
+    {"classname": "cof_coop_spawn4", "origin": [2556, -819, -728], "angles": [0, 90, 0]}
+  ],
+  "preservation": "All original entities and their text remain unchanged. New entity lump is appended; other lump ranges and bytes are preserved. The original map filename is retained.",
+  "deployment": "Generate into a new workspace directory only. Do not overwrite the Steam map. Isolated runtime launch support is not yet verified.",
+  "limitations": "Static world hull 1 samples and conventional player bounding boxes do not establish runtime spawn safety. Dynamic brush collisions, game hull selection and triggers still need runtime verification. No story door or transition logic is changed."
+}

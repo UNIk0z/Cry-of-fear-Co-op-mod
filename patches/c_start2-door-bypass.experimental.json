@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "status": "EXPERIMENTAL_NOT_RUNTIME_TESTED",
+  "sourceMap": "c_start2.bsp",
+  "sourceSha256": "3933456e6c0e8a449ec17e7829c9d69a8880a1e414b54dd6c0cf2b361483157e",
+  "controlMap": "c_start2_doorctrl.bsp",
+  "experimentalMap": "c_start2_doorbypass.bsp",
+  "outputSha256": "7d2f8c347f97e2135d9cbb49cc871c9d7cac2d16a0559b75a0841b59c79518f0",
+  "hypothesis": "Avoiding the original inter_door relocation path may prevent transition-related per-player visibility corruption. Exact flags/model/replication causes are unverified.",
+  "edits": [
+    {"entity":48,"offset":7546,"from":"inter_door_exit","to":"info_teleport_destination"},
+    {"entity":49,"offset":7950,"from":"inter_door","to":"trigger_teleport"},
+    {"entity":50,"offset":8349,"from":"inter_door","to":"trigger_teleport"},
+    {"entity":51,"offset":8450,"from":"inter_door_exit","to":"info_teleport_destination"}
+  ],
+  "preservation": "Only four classname values change. Original brushes, destination origins/angles/targetnames, targets, entity order, all other entity text and 14 non-entity lumps remain unchanged. Append replacement entity lump; preserve original bytes except entity header pair.",
+  "runtimeLimits": "Two selected unlocked same-map doors become touch teleports. Their original sounds/fades/Use action are bypassed. All other doors and campaign routing remain stock. This is a diagnostic candidate, not an accepted complete door fix. No model reassignment or new co-op spawns."
+}

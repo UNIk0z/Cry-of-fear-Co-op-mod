@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "map": "c_start2_dooruse",
+  "status": "EXPERIMENTAL_NOT_RUNTIME_TESTED",
+  "sourceSha256": "3933456e6c0e8a449ec17e7829c9d69a8880a1e414b54dd6c0cf2b361483157e",
+  "outputSha256": "ff183cf19f9dffc210803d572a0083facca7f74897f2d0c064e76e7cd290355a",
+  "fileBytes": 18699076,
+  "entities": 445,
+  "edits": [
+    {
+      "entity": 51,
+      "start": 8363,
+      "end": 8468,
+      "to": "{\n\"origin\" \"1040 -1711 -896\"\n\"targetname\" \"d1_1_exit1\"\n\"angles\" \"0 270 0\"\n\"classname\" \"info_teleport_destination\"\n}"
+    },
+    {
+      "entity": 50,
+      "start": 7964,
+      "end": 8362,
+      "to": "{\n\"model\" \"*7\"\n\"renderamt\" \"255\"\n\"rendermode\" \"4\"\n\"rendercolor\" \"0 0 0\"\n\"target\" \"cof_story_use50\"\n\"spawnflags\" \"17\"\n\"wait\" \"1\"\n\"sounds\" \"0\"\n\"delay\" \"0\"\n\"classname\" \"func_button\"\n}"
+    },
+    {
+      "entity": 49,
+      "start": 7565,
+      "end": 7963,
+      "to": "{\n\"model\" \"*6\"\n\"renderamt\" \"255\"\n\"rendermode\" \"4\"\n\"rendercolor\" \"0 0 0\"\n\"target\" \"cof_story_use49\"\n\"spawnflags\" \"17\"\n\"wait\" \"1\"\n\"sounds\" \"0\"\n\"delay\" \"0\"\n\"classname\" \"func_button\"\n}"
+    },
+    {
+      "entity": 48,
+      "start": 7460,
+      "end": 7564,
+      "to": "{\n\"origin\" \"3655 -1257 -896\"\n\"targetname\" \"d1_1_exit2\"\n\"angles\" \"0 90 0\"\n\"classname\" \"info_teleport_destination\"\n}"
+    }
+  ],
+  "appendText": "\n{\n\"origin\" \"3656 -1278.5 -849.5\"\n\"targetname\" \"cof_story_use49\"\n\"target\" \"d1_1_exit1\"\n\"message\" \"\"\n\"classname\" \"cof_teleport\"\n}\n{\n\"origin\" \"1039 -1689.5 -849.5\"\n\"targetname\" \"cof_story_use50\"\n\"target\" \"d1_1_exit2\"\n\"message\" \"\"\n\"classname\" \"cof_teleport\"\n}\n",
+  "routes": [
+    {
+      "door": 49,
+      "model": "*6",
+      "exit": 51,
+      "destination": "d1_1_exit1",
+      "helper": "cof_story_use49",
+      "origin": "3656 -1278.5 -849.5"
+    },
+    {
+      "door": 50,
+      "model": "*7",
+      "exit": 48,
+      "destination": "d1_1_exit2",
+      "helper": "cof_story_use50",
+      "origin": "1039 -1689.5 -849.5"
+    }
+  ],
+  "activation": "func_button flags 17 = DontMove + DirectUseOnly; no touch flag; one-second shared button reset; direct target cof_teleport with SDK blank message player selector.",
+  "limitations": "Point cof_teleport is supported by SDK/native BSPs, but is NOT the user-verified trigger_teleport Touch handler. Activator selection, hull adjustment, reset firing and visibility remain Steam runtime gates. Selected door audio/fades omitted; models/spawns unchanged.",
+  "scope": "Only original unlocked pair 49/50, destinations 48/51, two added point helpers. Other 439 original records preserved verbatim; all non-entity lumps unchanged."
+}

@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "map": "c_start2_coop_full",
+  "status": "STRUCTURALLY_VALIDATED_NOT_GAMEPLAY_TESTED",
+  "sourceSha256": "3933456e6c0e8a449ec17e7829c9d69a8880a1e414b54dd6c0cf2b361483157e",
+  "outputSha256": "f863ee55f5404a69d2edb278f7261f966ac6a57a2a8dcda0f58a9e173a42ebad",
+  "fileBytes": 18701086,
+  "entities": 455,
+  "referenceSha256": "4a0e1ddb450133d429250bb1d480689f4c9c1dc7949844affd2b541507b76a23",
+  "edits": [
+    {
+      "entity": 51,
+      "start": 8363,
+      "end": 8468,
+      "to": "{\n\"origin\" \"1040 -1711 -896\"\n\"targetname\" \"d1_1_exit1\"\n\"angles\" \"0 270 0\"\n\"classname\" \"info_teleport_destination\"\n}",
+      "purpose": "destination classname only; feet/yaw/name unchanged"
+    },
+    {
+      "entity": 50,
+      "start": 7964,
+      "end": 8362,
+      "to": "{\n\"model\" \"*7\"\n\"renderamt\" \"255\"\n\"rendermode\" \"4\"\n\"rendercolor\" \"0 0 0\"\n\"target\" \"cof_story_present50\"\n\"spawnflags\" \"1\"\n\"wait\" \"2.5\"\n\"sounds\" \"0\"\n\"delay\" \"0\"\n\"classname\" \"func_button\"\n}",
+      "purpose": "verified Use/fade/audio chain; original unlocked door metadata replaced"
+    },
+    {
+      "entity": 49,
+      "start": 7565,
+      "end": 7963,
+      "to": "{\n\"model\" \"*6\"\n\"renderamt\" \"255\"\n\"rendermode\" \"4\"\n\"rendercolor\" \"0 0 0\"\n\"target\" \"cof_story_present49\"\n\"spawnflags\" \"1\"\n\"wait\" \"2.5\"\n\"sounds\" \"0\"\n\"delay\" \"0\"\n\"classname\" \"func_button\"\n}",
+      "purpose": "verified Use/fade/audio chain; original unlocked door metadata replaced"
+    },
+    {
+      "entity": 48,
+      "start": 7460,
+      "end": 7564,
+      "to": "{\n\"origin\" \"3655 -1257 -896\"\n\"targetname\" \"d1_1_exit2\"\n\"angles\" \"0 90 0\"\n\"classname\" \"info_teleport_destination\"\n}",
+      "purpose": "destination classname only; feet/yaw/name unchanged"
+    }
+  ],
+  "appendText": "\n{\n\"origin\" \"3656 -1278.5 -849.5\"\n\"targetname\" \"cof_story_use49\"\n\"target\" \"d1_1_exit1\"\n\"classname\" \"cof_teleport\"\n}\n{\n\"origin\" \"1039 -1689.5 -849.5\"\n\"targetname\" \"cof_story_use50\"\n\"target\" \"d1_1_exit2\"\n\"classname\" \"cof_teleport\"\n}\n{\n\"origin\" \"3656 -1278.5 -849.5\"\n\"targetname\" \"cof_story_open49\"\n\"message\" \"doors/doormove1.wav\"\n\"health\" \"10\"\n\"pitch\" \"100\"\n\"pitchstart\" \"100\"\n\"channel\" \"6\"\n\"spawnflags\" \"50\"\n\"classname\" \"ambient_generic\"\n}\n{\n\"origin\" \"1040 -1711 -896\"\n\"targetname\" \"cof_story_close49\"\n\"message\" \"doors/doorstop8.wav\"\n\"health\" \"10\"\n\"pitch\" \"100\"\n\"pitchstart\" \"100\"\n\"channel\" \"6\"\n\"spawnflags\" \"50\"\n\"classname\" \"ambient_generic\"\n}\n{\n\"origin\" \"3656 -1278.5 -849.5\"\n\"targetname\" \"cof_story_black49\"\n\"spawnflags\" \"4\"\n\"duration\" \"0.6\"\n\"holdtime\" \"0.9\"\n\"rendercolor\" \"0 0 0\"\n\"renderamt\" \"255\"\n\"classname\" \"env_fade\"\n}\n{\n\"origin\" \"1040 -1711 -896\"\n\"targetname\" \"cof_story_reveal49\"\n\"spawnflags\" \"5\"\n\"duration\" \"0.6\"\n\"holdtime\" \"0\"\n\"rendercolor\" \"0 0 0\"\n\"renderamt\" \"255\"\n\"classname\" \"env_fade\"\n}\n{\n\"origin\" \"3656 -1278.5 -849.5\"\n\"targetname\" \"cof_story_present49\"\n\"spawnflags\" \"1\"\n\"cof_story_open49\" \"0\"\n\"cof_story_black49\" \"0\"\n\"cof_story_use49\" \"1.2\"\n\"cof_story_close49\" \"1.25\"\n\"cof_story_reveal49\" \"1.35\"\n\"classname\" \"multi_manager\"\n}\n{\n\"origin\" \"1039 -1689.5 -849.5\"\n\"targetname\" \"cof_story_open50\"\n\"message\" \"doors/doormove1.wav\"\n\"health\" \"10\"\n\"pitch\" \"100\"\n\"pitchstart\" \"100\"\n\"channel\" \"6\"\n\"spawnflags\" \"50\"\n\"classname\" \"ambient_generic\"\n}\n{\n\"origin\" \"3655 -1257 -896\"\n\"targetname\" \"cof_story_close50\"\n\"message\" \"doors/doorstop8.wav\"\n\"health\" \"10\"\n\"pitch\" \"100\"\n\"pitchstart\" \"100\"\n\"channel\" \"6\"\n\"spawnflags\" \"50\"\n\"classname\" \"ambient_generic\"\n}\n{\n\"origin\" \"1039 -1689.5 -849.5\"\n\"targetname\" \"cof_story_black50\"\n\"spawnflags\" \"4\"\n\"duration\" \"0.6\"\n\"holdtime\" \"0.9\"\n\"rendercolor\" \"0 0 0\"\n\"renderamt\" \"255\"\n\"classname\" \"env_fade\"\n}\n{\n\"origin\" \"3655 -1257 -896\"\n\"targetname\" \"cof_story_reveal50\"\n\"spawnflags\" \"5\"\n\"duration\" \"0.6\"\n\"holdtime\" \"0\"\n\"rendercolor\" \"0 0 0\"\n\"renderamt\" \"255\"\n\"classname\" \"env_fade\"\n}\n{\n\"origin\" \"1039 -1689.5 -849.5\"\n\"targetname\" \"cof_story_present50\"\n\"spawnflags\" \"1\"\n\"cof_story_open50\" \"0\"\n\"cof_story_black50\" \"0\"\n\"cof_story_use50\" \"1.2\"\n\"cof_story_close50\" \"1.25\"\n\"cof_story_reveal50\" \"1.35\"\n\"classname\" \"multi_manager\"\n}\n",
+  "convertedDoorIds": [
+    "c_start2:D0049",
+    "c_start2:D0050"
+  ],
+  "retainedDoorIds": [
+    "c_start2:D0006",
+    "c_start2:D0019",
+    "c_start2:D0204",
+    "c_start2:D0206",
+    "c_start2:D0227",
+    "c_start2:D0228"
+  ],
+  "scope": "All safe ordinary same-map doors converted:2/4 same-map, with2 scripted cafe exceptions;3 locked/no-exit and1 cross-map door retained. Whole map NOT gameplay verified.",
+  "timing": {
+    "audioCloseAt": 1.2,
+    "fadeOut": 0.6,
+    "fadeHold": 0.9,
+    "teleportAt": 1.2,
+    "closeAt": 1.25,
+    "fadeInAt": 1.35,
+    "fadeIn": 0.6,
+    "cooldown": 2.5
+  },
+  "limits": "Conservative ordinary unlocked pattern only. Named/gated/key/special doors retained. Static hull excludes dynamic/player overlap. Shared 2.5s panel cooldown; positional audio. Renamed-map hardcoded progression and full-map gameplay unverified."
+}

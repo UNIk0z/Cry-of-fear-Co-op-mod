@@ -1,0 +1,55 @@
+// Cry of Fear co-op (Simon's story): options of the game's Create Server window.
+// The co-op adapter makes that window read this file instead of settings.scr
+// (only when the game is started with "Run Co-op Mod.cmd"). The window may
+// rewrite it to keep the last choices.
+//
+// Format: "cvar" { "Prompt" { type [ type info ] } { default } }
+// BOOL "0"/"1"; NUMBER min max; STRING; LIST "label" "value" ... with the
+// default given as the index of the entry (0 is the first).
+
+VERSION 1.0
+
+DESCRIPTION SERVER_OPTIONS
+{
+	"hostname"
+	{
+		"#Valve_Hostname"
+		{ STRING }
+		{ "Simon's Story co-op" }
+	}
+
+	"maxplayers"
+	{
+		"#Valve_Max_Players"
+		{ NUMBER 2.000000 4.000000 }
+		{ "2.000000" }
+	}
+
+	"sv_password"
+	{
+		"#Valve_Server_Password"
+		{ STRING }
+		{ "" }
+	}
+
+	"difficulty"
+	{
+		"Difficulty"
+		{ LIST "Easy" "1" "Normal" "2" "Hard" "3" "Nightmare" "4" }
+		{ "1" }
+	}
+
+	"sc_collision"
+	{
+		"Player collision (off: walk through each other)"
+		{ BOOL }
+		{ "1" }
+	}
+
+	"pausable"
+	{
+		"Pausable server"
+		{ BOOL }
+		{ "1" }
+	}
+}

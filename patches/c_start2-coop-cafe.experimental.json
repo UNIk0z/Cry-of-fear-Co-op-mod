@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "map": "c_start2_coop_cafe",
+  "status": "STRUCTURALLY_VALIDATED_NOT_GAMEPLAY_TESTED",
+  "sourceSha256": "3933456e6c0e8a449ec17e7829c9d69a8880a1e414b54dd6c0cf2b361483157e",
+  "outputSha256": "451f150c84178e04a5ee589fdad28268576ac555b3cd15d5aa4f9865e1c4c974",
+  "fileBytes": 18705154,
+  "entities": 479,
+  "referenceSha256": "4a0e1ddb450133d429250bb1d480689f4c9c1dc7949844affd2b541507b76a23",
+  "edits": [
+    {
+      "start": 57569,
+      "end": 57693,
+      "entity": 414,
+      "to": "{\n\"origin\" \"1032 1959 -492\"\n\"targetname\" \"cafedoors2en\"\n\"globalstate\" \"c_start2_coop_cafe_enabled206\"\n\"triggermode\" \"1\"\n\"initialstate\" \"0\"\n\"spawnflags\" \"1\"\n\"classname\" \"env_global\"\n}",
+      "purpose": "Original trigger_once name enables a shared state idempotently"
+    },
+    {
+      "start": 57367,
+      "end": 57499,
+      "entity": 412,
+      "to": "{\n\"origin\" \"1045 1919 -523\"\n\"killtarget\" \"cafedoors2\"\n\"targetname\" \"killcafedoors2\"\n\"triggerstate\" \"2\"\n\"target\" \"cof_cafe_kill206\"\n\"classname\" \"trigger_relay\"\n}",
+      "purpose": "Original killtarget unchanged; disable delayed relocation after removal"
+    },
+    {
+      "start": 48115,
+      "end": 48245,
+      "entity": 345,
+      "to": "{\n\"origin\" \"1032 1938 -523\"\n\"killtarget\" \"cafedoors\"\n\"targetname\" \"killcafedoors\"\n\"triggerstate\" \"2\"\n\"target\" \"cof_cafe_kill204\"\n\"classname\" \"trigger_relay\"\n}",
+      "purpose": "Original killtarget unchanged; disable delayed relocation after removal"
+    },
+    {
+      "start": 29583,
+      "end": 30025,
+      "entity": 206,
+      "to": "{\n\"model\" \"*15\"\n\"targetname\" \"cafedoors2\"\n\"renderamt\" \"255\"\n\"rendermode\" \"4\"\n\"rendercolor\" \"0 0 0\"\n\"target\" \"cof_story_present206\"\n\"master\" \"cof_cafe_enabled206\"\n\"spawnflags\" \"1\"\n\"wait\" \"2.5\"\n\"sounds\" \"0\"\n\"delay\" \"0\"\n\"classname\" \"func_button\"\n}",
+      "purpose": "Cafe Use panel; original brush/name retained; shared story master"
+    },
+    {
+      "start": 29480,
+      "end": 29582,
+      "entity": 205,
+      "to": "{\n\"origin\" \"1064 1987 -591\"\n\"targetname\" \"s1_1_exit1\"\n\"angles\" \"0 0 0\"\n\"classname\" \"info_teleport_destination\"\n}",
+      "purpose": "Cafe destination classname only"
+    },
+    {
+      "start": 29055,
+      "end": 29479,
+      "entity": 204,
+      "to": "{\n\"model\" \"*14\"\n\"targetname\" \"cafedoors\"\n\"renderamt\" \"255\"\n\"rendermode\" \"4\"\n\"rendercolor\" \"0 0 0\"\n\"target\" \"cof_story_present204\"\n\"master\" \"cof_cafe_alive204\"\n\"spawnflags\" \"1\"\n\"wait\" \"2.5\"\n\"sounds\" \"0\"\n\"delay\" \"0\"\n\"classname\" \"func_button\"\n}",
+      "purpose": "Cafe Use panel; original brush/name retained; shared story master"
+    },
+    {
+      "start": 28951,
+      "end": 29054,
+      "entity": 203,
+      "to": "{\n\"origin\" \"972 1986 -599\"\n\"targetname\" \"s1_1_exit2\"\n\"angles\" \"0 180 0\"\n\"classname\" \"info_teleport_destination\"\n}",
+      "purpose": "Cafe destination classname only"
+    },
+    {
+      "start": 8363,
+      "end": 8468,
+      "entity": 51,
+      "to": "{\n\"origin\" \"1040 -1711 -896\"\n\"targetname\" \"d1_1_exit1\"\n\"angles\" \"0 270 0\"\n\"classname\" \"info_teleport_destination\"\n}",
+      "purpose": "destination classname only; feet/yaw/name/pair order unchanged; targeted record serialized"
+    },
+    {
+      "start": 7964,
+      "end": 8362,
+      "entity": 50,
+      "to": "{\n\"model\" \"*7\"\n\"renderamt\" \"255\"\n\"rendermode\" \"4\"\n\"rendercolor\" \"0 0 0\"\n\"target\" \"cof_story_present50\"\n\"spawnflags\" \"1\"\n\"wait\" \"2.5\"\n\"sounds\" \"0\"\n\"delay\" \"0\"\n\"classname\" \"func_button\"\n}",
+      "purpose": "verified Use/fade/audio chain; original unlocked door metadata replaced"
+    },
+    {
+      "start": 7565,
+      "end": 7963,
+      "entity": 49,
+      "to": "{\n\"model\" \"*6\"\n\"renderamt\" \"255\"\n\"rendermode\" \"4\"\n\"rendercolor\" \"0 0 0\"\n\"target\" \"cof_story_present49\"\n\"spawnflags\" \"1\"\n\"wait\" \"2.5\"\n\"sounds\" \"0\"\n\"delay\" \"0\"\n\"classname\" \"func_button\"\n}",
+      "purpose": "verified Use/fade/audio chain; original unlocked door metadata replaced"
+    },
+    {
+      "start": 7460,
+      "end": 7564,
+      "entity": 48,
+      "to": "{\n\"origin\" \"3655 -1257 -896\"\n\"targetname\" \"d1_1_exit2\"\n\"angles\" \"0 90 0\"\n\"classname\" \"info_teleport_destination\"\n}",
+      "purpose": "destination classname only; feet/yaw/name/pair order unchanged; targeted record serialized"
+    }
+  ],
+  "appendText": "\n{\n\"origin\" \"3656 -1278.5 -849.5\"\n\"targetname\" \"cof_story_use49\"\n\"target\" \"d1_1_exit1\"\n\"classname\" \"cof_teleport\"\n}\n{\n\"origin\" \"1039 -1689.5 -849.5\"\n\"targetname\" \"cof_story_use50\"\n\"target\" \"d1_1_exit2\"\n\"classname\" \"cof_teleport\"\n}\n{\n\"origin\" \"3656 -1278.5 -849.5\"\n\"targetname\" \"cof_story_open49\"\n\"message\" \"doors/doormove1.wav\"\n\"health\" \"10\"\n\"pitch\" \"100\"\n\"pitchstart\" \"100\"\n\"channel\" \"6\"\n\"spawnflags\" \"50\"\n\"classname\" \"ambient_generic\"\n}\n{\n\"origin\" \"1040 -1711 -896\"\n\"targetname\" \"cof_story_close49\"\n\"message\" \"doors/doorstop8.wav\"\n\"health\" \"10\"\n\"pitch\" \"100\"\n\"pitchstart\" \"100\"\n\"channel\" \"6\"\n\"spawnflags\" \"50\"\n\"classname\" \"ambient_generic\"\n}\n{\n\"origin\" \"3656 -1278.5 -849.5\"\n\"targetname\" \"cof_story_black49\"\n\"spawnflags\" \"4\"\n\"duration\" \"0.6\"\n\"holdtime\" \"0.9\"\n\"rendercolor\" \"0 0 0\"\n\"renderamt\" \"255\"\n\"classname\" \"env_fade\"\n}\n{\n\"origin\" \"1040 -1711 -896\"\n\"targetname\" \"cof_story_reveal49\"\n\"spawnflags\" \"5\"\n\"duration\" \"0.6\"\n\"holdtime\" \"0\"\n\"rendercolor\" \"0 0 0\"\n\"renderamt\" \"255\"\n\"classname\" \"env_fade\"\n}\n{\n\"origin\" \"3656 -1278.5 -849.5\"\n\"targetname\" \"cof_story_present49\"\n\"spawnflags\" \"1\"\n\"cof_story_open49\" \"0\"\n\"cof_story_black49\" \"0\"\n\"cof_story_use49\" \"1.2\"\n\"cof_story_close49\" \"1.25\"\n\"cof_story_reveal49\" \"1.35\"\n\"classname\" \"multi_manager\"\n}\n{\n\"origin\" \"1039 -1689.5 -849.5\"\n\"targetname\" \"cof_story_open50\"\n\"message\" \"doors/doormove1.wav\"\n\"health\" \"10\"\n\"pitch\" \"100\"\n\"pitchstart\" \"100\"\n\"channel\" \"6\"\n\"spawnflags\" \"50\"\n\"classname\" \"ambient_generic\"\n}\n{\n\"origin\" \"3655 -1257 -896\"\n\"targetname\" \"cof_story_close50\"\n\"message\" \"doors/doorstop8.wav\"\n\"health\" \"10\"\n\"pitch\" \"100\"\n\"pitchstart\" \"100\"\n\"channel\" \"6\"\n\"spawnflags\" \"50\"\n\"classname\" \"ambient_generic\"\n}\n{\n\"origin\" \"1039 -1689.5 -849.5\"\n\"targetname\" \"cof_story_black50\"\n\"spawnflags\" \"4\"\n\"duration\" \"0.6\"\n\"holdtime\" \"0.9\"\n\"rendercolor\" \"0 0 0\"\n\"renderamt\" \"255\"\n\"classname\" \"env_fade\"\n}\n{\n\"origin\" \"3655 -1257 -896\"\n\"targetname\" \"cof_story_reveal50\"\n\"spawnflags\" \"5\"\n\"duration\" \"0.6\"\n\"holdtime\" \"0\"\n\"rendercolor\" \"0 0 0\"\n\"renderamt\" \"255\"\n\"classname\" \"env_fade\"\n}\n{\n\"origin\" \"1039 -1689.5 -849.5\"\n\"targetname\" \"cof_story_present50\"\n\"spawnflags\" \"1\"\n\"cof_story_open50\" \"0\"\n\"cof_story_black50\" \"0\"\n\"cof_story_use50\" \"1.2\"\n\"cof_story_close50\" \"1.25\"\n\"cof_story_reveal50\" \"1.35\"\n\"classname\" \"multi_manager\"\n}\n{\n\"origin\" \"1008.5 1985.5 -547\"\n\"targetname\" \"cof_story_open204\"\n\"message\" \"doors/doormove2.wav\"\n\"health\" \"10\"\n\"pitch\" \"100\"\n\"pitchstart\" \"100\"\n\"channel\" \"6\"\n\"spawnflags\" \"50\"\n\"classname\" \"ambient_generic\"\n}\n{\n\"origin\" \"1064 1987 -591\"\n\"targetname\" \"cof_story_close204\"\n\"message\" \"doors/doorstop2.wav\"\n\"health\" \"10\"\n\"pitch\" \"100\"\n\"pitchstart\" \"100\"\n\"channel\" \"6\"\n\"spawnflags\" \"50\"\n\"classname\" \"ambient_generic\"\n}\n{\n\"origin\" \"1008.5 1985.5 -547\"\n\"targetname\" \"cof_story_black204\"\n\"spawnflags\" \"4\"\n\"duration\" \"0.6\"\n\"holdtime\" \"0.9\"\n\"rendercolor\" \"0 0 0\"\n\"renderamt\" \"255\"\n\"classname\" \"env_fade\"\n}\n{\n\"origin\" \"1064 1987 -591\"\n\"targetname\" \"cof_story_reveal204\"\n\"spawnflags\" \"5\"\n\"duration\" \"0.6\"\n\"holdtime\" \"0\"\n\"rendercolor\" \"0 0 0\"\n\"renderamt\" \"255\"\n\"classname\" \"env_fade\"\n}\n{\n\"origin\" \"1008.5 1985.5 -547\"\n\"targetname\" \"cof_story_present204\"\n\"spawnflags\" \"1\"\n\"cof_story_open204\" \"0\"\n\"cof_story_black204\" \"0\"\n\"cof_story_use204\" \"1.2\"\n\"cof_story_close204\" \"1.25\"\n\"cof_story_reveal204\" \"1.35\"\n\"master\" \"cof_cafe_alive204\"\n\"classname\" \"multi_manager\"\n}\n{\n\"origin\" \"1008.5 1985.5 -547\"\n\"targetname\" \"cof_story_use204\"\n\"spawnflags\" \"1\"\n\"master\" \"cof_cafe_alive204\"\n\"cof_cafe_tele204\" \"0\"\n\"classname\" \"multi_manager\"\n}\n{\n\"origin\" \"1008.5 1985.5 -547\"\n\"targetname\" \"cof_cafe_tele204\"\n\"target\" \"s1_1_exit1\"\n\"classname\" \"cof_teleport\"\n}\n{\n\"origin\" \"1008.5 1985.5 -547\"\n\"targetname\" \"cof_cafe_alive204\"\n\"globalstate\" \"c_start2_coop_cafe_alive204\"\n\"classname\" \"multisource\"\n}\n{\n\"origin\" \"1008.5 1985.5 -547\"\n\"targetname\" \"cof_cafe_kill204\"\n\"globalstate\" \"c_start2_coop_cafe_alive204\"\n\"triggermode\" \"0\"\n\"initialstate\" \"1\"\n\"spawnflags\" \"1\"\n\"classname\" \"env_global\"\n}\n{\n\"origin\" \"1008.5 1985.5 -547\"\n\"targetname\" \"cof_cafe_reset204\"\n\"globalstate\" \"c_start2_coop_cafe_alive204\"\n\"triggermode\" \"1\"\n\"initialstate\" \"1\"\n\"spawnflags\" \"1\"\n\"classname\" \"env_global\"\n}\n{\n\"origin\" \"1031.5 1985.5 -547\"\n\"targetname\" \"cof_story_open206\"\n\"message\" \"doors/doormove2.wav\"\n\"health\" \"10\"\n\"pitch\" \"100\"\n\"pitchstart\" \"100\"\n\"channel\" \"6\"\n\"spawnflags\" \"50\"\n\"classname\" \"ambient_generic\"\n}\n{\n\"origin\" \"972 1986 -599\"\n\"targetname\" \"cof_story_close206\"\n\"message\" \"doors/doorstop2.wav\"\n\"health\" \"10\"\n\"pitch\" \"100\"\n\"pitchstart\" \"100\"\n\"channel\" \"6\"\n\"spawnflags\" \"50\"\n\"classname\" \"ambient_generic\"\n}\n{\n\"origin\" \"1031.5 1985.5 -547\"\n\"targetname\" \"cof_story_black206\"\n\"spawnflags\" \"4\"\n\"duration\" \"0.6\"\n\"holdtime\" \"0.9\"\n\"rendercolor\" \"0 0 0\"\n\"renderamt\" \"255\"\n\"classname\" \"env_fade\"\n}\n{\n\"origin\" \"972 1986 -599\"\n\"targetname\" \"cof_story_reveal206\"\n\"spawnflags\" \"5\"\n\"duration\" \"0.6\"\n\"holdtime\" \"0\"\n\"rendercolor\" \"0 0 0\"\n\"renderamt\" \"255\"\n\"classname\" \"env_fade\"\n}\n{\n\"origin\" \"1031.5 1985.5 -547\"\n\"targetname\" \"cof_story_present206\"\n\"spawnflags\" \"1\"\n\"cof_story_open206\" \"0\"\n\"cof_story_black206\" \"0\"\n\"cof_story_use206\" \"1.2\"\n\"cof_story_close206\" \"1.25\"\n\"cof_story_reveal206\" \"1.35\"\n\"master\" \"cof_cafe_enabled206\"\n\"classname\" \"multi_manager\"\n}\n{\n\"origin\" \"1031.5 1985.5 -547\"\n\"targetname\" \"cof_story_use206\"\n\"spawnflags\" \"1\"\n\"master\" \"cof_cafe_alive206\"\n\"cof_cafe_tele206\" \"0\"\n\"classname\" \"multi_manager\"\n}\n{\n\"origin\" \"1031.5 1985.5 -547\"\n\"targetname\" \"cof_cafe_tele206\"\n\"target\" \"s1_1_exit2\"\n\"classname\" \"cof_teleport\"\n}\n{\n\"origin\" \"1031.5 1985.5 -547\"\n\"targetname\" \"cof_cafe_alive206\"\n\"globalstate\" \"c_start2_coop_cafe_alive206\"\n\"classname\" \"multisource\"\n}\n{\n\"origin\" \"1031.5 1985.5 -547\"\n\"targetname\" \"cof_cafe_kill206\"\n\"globalstate\" \"c_start2_coop_cafe_alive206\"\n\"triggermode\" \"0\"\n\"initialstate\" \"1\"\n\"spawnflags\" \"1\"\n\"classname\" \"env_global\"\n}\n{\n\"origin\" \"1031.5 1985.5 -547\"\n\"targetname\" \"cof_cafe_reset206\"\n\"globalstate\" \"c_start2_coop_cafe_alive206\"\n\"triggermode\" \"1\"\n\"initialstate\" \"1\"\n\"spawnflags\" \"1\"\n\"classname\" \"env_global\"\n}\n{\n\"origin\" \"1032 1959 -492\"\n\"targetname\" \"cof_cafe_enabled206\"\n\"globalstate\" \"c_start2_coop_cafe_enabled206\"\n\"classname\" \"multisource\"\n}\n{\n\"origin\" \"1032 1959 -492\"\n\"targetname\" \"cof_cafe_reset_disabled\"\n\"globalstate\" \"c_start2_coop_cafe_enabled206\"\n\"triggermode\" \"0\"\n\"initialstate\" \"0\"\n\"spawnflags\" \"1\"\n\"classname\" \"env_global\"\n}\n{\n\"origin\" \"1032 1959 -492\"\n\"targetname\" \"cof_cafe_reset\"\n\"spawnflags\" \"1\"\n\"cof_cafe_reset204\" \"0\"\n\"cof_cafe_reset206\" \"0\"\n\"cof_cafe_reset_disabled\" \"0\"\n\"classname\" \"multi_manager\"\n}\n{\n\"origin\" \"1032 1959 -492\"\n\"target\" \"cof_cafe_reset\"\n\"triggerstate\" \"1\"\n\"spawnflags\" \"1\"\n\"classname\" \"trigger_auto\"\n}\n",
+  "convertedDoorIds": [
+    "c_start2:D0049",
+    "c_start2:D0050",
+    "c_start2:D0204",
+    "c_start2:D0206"
+  ],
+  "retainedDoorIds": [
+    "c_start2:D0006",
+    "c_start2:D0019",
+    "c_start2:D0227",
+    "c_start2:D0228"
+  ],
+  "scope": "Ordinary v9 pair unchanged; cafe doors adapted; notes, computer, story manager, enable trigger and cross-map routes retained.",
+  "timing": {
+    "audioCloseAt": 1.2,
+    "fadeOut": 0.6,
+    "fadeHold": 0.9,
+    "teleportAt": 1.2,
+    "closeAt": 1.25,
+    "fadeInAt": 1.35,
+    "fadeIn": 0.6,
+    "cooldown": 2.5
+  },
+  "limits": "Cafe masters/reset/queued removal require Steam gameplay verification. The life check adds a zero-delay threaded manager before cafe relocation; timing may differ by a frame. Original lock messages/music fades are not reproduced by the panel. Positional audio/shared cooldown and alias routing limits remain. Notes are not synchronized."
+}
