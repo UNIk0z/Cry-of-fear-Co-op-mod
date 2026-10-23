@@ -7,7 +7,7 @@
 **Not to be confused with COF Enhanced Coop Mod for Xash3D, this mod is for the latest Steam Version.**
 
 ![Status: early test build](https://img.shields.io/badge/status-early%20test%20build-orange?style=for-the-badge)
-![Players: 2](https://img.shields.io/badge/players-2-555?style=for-the-badge)
+![Players: 4](https://img.shields.io/badge/players-2-555?style=for-the-badge)
 
 [![Discord](https://img.shields.io/badge/Discord-report%20bugs-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/hgEGSf9MFZ)
 
