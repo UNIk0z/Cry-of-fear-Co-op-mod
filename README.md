@@ -15,18 +15,18 @@
 
 ## ⬇️ Download
 
-### **[Click here to download Cry of Fear Co-op v0.4](https://github.com/UNIk0z/Cry-of-fear-Co-op-mod/releases/download/v0.4/Cry.of.Fear.Co-op.v0.4.zip)**
+### **[Click here to download Cry of Fear Co-op v0.5](https://github.com/UNIk0z/Cry-of-fear-Co-op-mod-SteamEdition/releases/download/v0.5/Cry.of.Fear.Co-op.v0.5.zip)**
 
 > [!IMPORTANT]
 > **Don't use the green "Code" button or "Download ZIP".** That gives you the
 > source of this page, not the mod.
 
-1. Click the download link above. Your browser saves
-   **`Cry.of.Fear.Co-op.v0.4.zip`**.
-   (If it doesn't start, open the [v0.4 release page](https://github.com/UNIk0z/Cry-of-fear-Co-op-mod/releases/tag/v0.4), scroll down
-   to **Assets** and click **`Cry.of.Fear.Co-op.v0.4.zip`**.)
+1. Click the download link above. Your browser saves the mod's ZIP
+   (**`Cry.of.Fear.Co-op`** and the version).
+   (If it doesn't start, open the [latest release page](https://github.com/UNIk0z/Cry-of-fear-Co-op-mod-SteamEdition/releases/latest), scroll down
+   to **Assets** and click the **`Cry.of.Fear.Co-op`** ZIP.)
 2. Right-click the ZIP and choose **Extract All**.
-3. With Cry of Fear closed, run **`Install or Update.cmd`** (both players).
+3. With Cry of Fear closed, run **`Install.cmd`** (both players).
 4. To play, run **`Run Co-op Mod.cmd`**. See [Play](#2-play) below.
 
 > [!WARNING]
@@ -56,18 +56,19 @@ play **Simon's single-player story** together instead.
 
 ## Quick start
 
-The download has just three files:
+The download has four files:
 
 | File | When to use it |
 |---|---|
-| `Install or Update.cmd` | Once per new version, with the game closed |
+| `Install.cmd` | Once per new version, with the game closed |
+| `Check for Updates.cmd` | To see if a newer version is out (it can download it for you) |
 | `Run Co-op Mod.cmd` | **Every time you play** |
 | `Uninstall.cmd` | To remove the mod |
 
 ### 1. Install (both players)
 
 1. Download **The mod** and unzip it anywhere.
-2. Close Cry of Fear and run **`Install or Update.cmd`**. It finds the game
+2. Close Cry of Fear and run **`Install.cmd`**. It finds the game
    through Steam, moves any older version of the mod aside and installs this one.
 
 ### 2. Play
@@ -77,14 +78,14 @@ Both players run **`Run Co-op Mod.cmd`**.
 - **Host:** In the main menu choose *Host Simon's Story*, then
   *Simon's Story: New Game* (or *Load Slot 1/2/3*), and pick a difficulty.
   Give your friend your address (for example your Radmin VPN IP).
-- **Friend:** once the game is open, press **`~`** to open the console and
-  type `connect`, then the host's IP address and `:27015`. For example:
+- **Friend:** click **Join** in the co-op menu, type the host's IP address and
+  press Enter, then type the port and press Enter (or wait: 27015 is used after
+  15 seconds). Or press **`~`** to open the console and type `connect`, then
+  the host's IP address and `:27015`. For example:
 
   ```
   connect 192.168.1.1:27015
   ```
-
-  This is the only way to join.
 
 > [!TIP]
 > **Stuck somewhere?** Press **Y** (chat) and type `stuck`. You are moved next
