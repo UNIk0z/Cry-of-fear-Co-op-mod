@@ -15,7 +15,7 @@
 
 ## ⬇️ Download
 
-### **[Click here to download Cry of Fear Co-op v0.5](https://github.com/UNIk0z/Cry-of-fear-Co-op-mod-SteamEdition/releases/download/v0.5/Cry.of.Fear.Co-op.v0.5.zip)**
+### **[Click here to download Cry of Fear Co-op v0.5.1](https://github.com/UNIk0z/Cry-of-fear-Co-op-mod-SteamEdition/releases/download/v0.5.1/Cry.of.Fear.Co-op.v0.5.1.zip)**
 
 > [!IMPORTANT]
 > **Don't use the green "Code" button or "Download ZIP".** That gives you the
@@ -75,19 +75,25 @@ The download has four files:
 
 Both players run **`Run Co-op Mod.cmd`**.
 
-- **Host:** In the main menu choose *Host Simon's Story*, then
-  *Simon's Story: New Game* (or *Load Slot 1/2/3*), and pick a difficulty.
-  Give your friend your address (for example your Radmin VPN IP).
-- **Friend:** click **Join** in the co-op menu, type the host's IP address and
-  press Enter, then type the port and press Enter (or wait: 27015 is used after
-  15 seconds). Or press **`~`** to open the console and type `connect`, then
-  the host's IP address and `:27015`. For example:
+- **Host:** click *Host Simon's Story*. The game's **Create Server** window
+  opens: pick where to start (*Chapter-0-Prologue* up to
+  *Chapter-7-Only-Safe-at-Home*) or a save (*Load-Save-Slot-1/2/3*), set the
+  number of players (2 to 4), the difficulty and player collision, and click
+  **Start**. You can also play alone. Give your friend your address (for
+  example your Radmin VPN IP).
+- **Friend:** click *Join Simon's Story*. A box opens: type the host's IP
+  address, then the port (leave it empty for 27015), and click **Join**. You can
+  also press **`~`** to open the console and type `connect`, then the host's
+  IP address and `:27015`. For example:
 
   ```
   connect 192.168.1.1:27015
   ```
 
 > [!TIP]
+> **Skip a cutscene:** press **R**. When every player has pressed it, the scene
+> jumps to its end.
+>
 > **Stuck somewhere?** Press **Y** (chat) and type `stuck`. You are moved next
 > to the other player.
 
