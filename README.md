@@ -15,7 +15,7 @@
 
 ## ⬇️ Download
 
-### **[Click here to download Cry of Fear Co-op v0.5.4](https://github.com/UNIk0z/Cry-of-fear-Co-op-mod-SteamEdition/releases/download/v0.5.4/Cry.of.Fear.Co-op.v0.5.4.zip)**
+### **[Click here to download Cry of Fear Co-op v0.5.5](https://github.com/UNIk0z/Cry-of-fear-Co-op-mod-SteamEdition/releases/download/v0.5.5/Cry.of.Fear.Co-op.v0.5.5.zip)**
 
 > [!IMPORTANT]
 > **Don't use the green "Code" button or "Download ZIP".** That gives you the
