@@ -15,7 +15,7 @@
 
 ## ⬇️ Download
 
-### **[Click here to download Cry of Fear Co-op v0.5.1](https://github.com/UNIk0z/Cry-of-fear-Co-op-mod-SteamEdition/releases/download/v0.5.1/Cry.of.Fear.Co-op.v0.5.1.zip)**
+### **[Click here to download Cry of Fear Co-op v0.5.3](https://github.com/UNIk0z/Cry-of-fear-Co-op-mod-SteamEdition/releases/download/v0.5.3/Cry.of.Fear.Co-op.v0.5.3.zip)**
 
 > [!IMPORTANT]
 > **Don't use the green "Code" button or "Download ZIP".** That gives you the
@@ -43,6 +43,9 @@ play **Simon's single-player story** together instead.
 |---|---|
 | 🚪 **Story maps for two** | Both players spawn together, and doors and level changes take both of you along. Cutscenes play for both, and story weapons and items are given to both. |
 | 🔢 **Shared progress** | Codes, notes and objectives are shared, so either player can enter a keypad code. |
+| 🎬 **Start at any chapter** | Pick the Prologue, any chapter from 1 to 7 or a save. A chapter starts where its title appears, with the weapons Simon has found by then. |
+| 🧍 **Play alone too** | The mod also works with one player: a short "Waiting for players" countdown, then the story goes on. |
+| 🎒 **Same story rules** | Item puzzles (rope, lighter, saw, fuse, scissors...) work for both players. After the train crash both players lose the bag and have 3 slots, as in the story. |
 | 🧩 **Two-half items** | When the two halves of an item are picked up by different players, they go to one player so they can be combined. |
 | 🗺️ **Maps keep their state** | A map you go back to stays as you left it: taken items, dead enemies, opened doors and solved puzzles. |
 | 📼 **Saving** | Only the host can save. The host uses a tape recorder and picks slot 1, 2 or 3. Saves are kept on the host's PC. |
@@ -79,7 +82,8 @@ Both players run **`Run Co-op Mod.cmd`**.
   opens: pick where to start (*Chapter-0-Prologue* up to
   *Chapter-7-Only-Safe-at-Home*) or a save (*Load-Save-Slot-1/2/3*), set the
   number of players (2 to 4), the difficulty and player collision, and click
-  **Start**. You can also play alone. Give your friend your address (for
+  **Start**. A chapter starts where its title card shows, with the weapons
+  Simon has found by then. You can also play alone. Give your friend your address (for
   example your Radmin VPN IP).
 - **Friend:** click *Join Simon's Story*. A box opens: type the host's IP
   address, then the port (leave it empty for 27015), and click **Join**. You can
@@ -91,7 +95,7 @@ Both players run **`Run Co-op Mod.cmd`**.
   ```
 
 > [!TIP]
-> **Skip a cutscene:** press **R**. When every player has pressed it, the scene
+> **Skip a cutscene:** press **R** (the screen shows "Press R to skip"). When every player has pressed it, the scene
 > jumps to its end.
 >
 > **Stuck somewhere?** Press **Y** (chat) and type `stuck`. You are moved next
@@ -123,8 +127,8 @@ Every bug report needs the **log file**. That's how we can see what happened.
 
 ## Current Known limits
 
-- Tested with automated tests and a few early two-player sessions. Most of the
-  campaign has not been played through in co-op yet.
+- Most chapter starts have been tried alone. Most of the campaign has not been
+  played through in co-op yet.
 - The endings (the strangle scenes and the final wheelchair boss) are still
   designed around player 1.
 - Some particle effects may only show for the host.
@@ -137,3 +141,8 @@ Special thanks: **Mesilll**, **Michal Eminov**, **caixa**.
 
 Cry of Fear is made by Team Psykskallar. This is an unofficial fan mod and
 requires the original game from Steam.
+
+## For developers
+
+This ZIP is the mod's source code. [BUILDING.md](BUILDING.md) explains the tools,
+the build and the tests; the release notes are in [docs](docs).
